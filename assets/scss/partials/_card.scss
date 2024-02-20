@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.card-lr-radius-l {
+    border-radius: 5rem 0;
+}
+
+.card-lr-radius-m {
+    border-radius: 2.75rem 0;
+}
+
+.card-lr-radius-s {
+    border-radius: 1.375rem 0;
+}
+
+.card-lr-radius-xs {
+    border-radius: 1rem 0;
+}
+
+.card-rl-radius-l {
+    border-radius: 0 5rem;
+}
+
+.card-rl-radius-m {
+    border-radius: 0 2.75rem;
+}
+
+.card-rl-radius-s {
+    border-radius: 0 1.5rem;
+}
+
+.card-rl-radius-xs {
+    border-radius: 0 1.375rem;
+}
+
+.card-bg-teal {
+    background-color: $clr-teal;
+}
+
+.card-bg-green {
+    background-color: $clr-green;
+}
+
+.card-bg-mandarin {
+    background-color: $clr-mandarin;
+}

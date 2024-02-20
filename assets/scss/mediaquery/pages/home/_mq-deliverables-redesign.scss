@@ -1,0 +1,91 @@
+@media only screen and (min-width: $screen-l) {
+	.deliverables {
+		background-size: 48%;
+	}
+}
+
+@media only screen and (max-width: $laptop-l) {
+	.deliverables {
+		background-size: 77%;
+	}
+}
+
+@media only screen and (max-width: $laptop) {
+	.deliverables {
+		background-size: 77%;
+
+		.deliverables__container {
+			a.cta {
+				width: calc(100% - 10rem);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $tablet) {
+	.deliverables {
+		height: 110rem;
+		background-image: unset;
+
+		.deliverables__container {
+			grid-column: 2;
+			place-self: end;
+			padding-bottom: 5rem;
+
+			.deliverables__container__items {
+				flex-direction: column;
+				gap: 3.12rem 0;
+			}
+
+			a.cta {
+				width: calc(100% - 2rem);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-l) {
+	.deliverables {
+		height: 130rem;
+
+		.deliverables__container {
+			padding-bottom: 5rem;
+
+			.deliverables__container__items {
+				.item {
+					.item__img {
+						place-self: center;
+					}
+				}
+			}
+
+			a.cta {
+				flex-direction: column;
+				height: 9rem;
+				bottom: -5%;
+
+				svg {
+					rotate: 90deg;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-m) {
+	.deliverables {
+		height: 136rem;
+	}
+}
+
+@media only screen and (max-width: $mobile-s) {
+	.deliverables {
+		height: 148rem;
+		
+		.deliverables__container {
+			a.cta {
+				bottom: -4%;
+			}
+		}
+	}
+}

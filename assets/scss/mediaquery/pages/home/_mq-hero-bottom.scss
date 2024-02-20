@@ -1,0 +1,40 @@
+@media only screen and (max-width: $laptop) {
+	.hero__bottom {
+		.hero__bottom__text {
+			width: 100%;
+		}
+	}
+}
+
+@media only screen and (max-width: $tablet) {
+	.hero__bottom {
+		padding-bottom: 4rem;
+
+		.hero__container {
+			grid-column: 2 / 3;
+			grid-template-columns: 1fr;
+
+			.hero__bottom__text {
+				grid-column: 1;
+				align-items: center;
+				padding-top: 2rem;
+
+				h2 {
+					& span:first-child {
+						display: none;
+					}
+
+					& span:nth-child(2) {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-l) {
+	.hero__bottom {
+		padding-top: 20rem;
+	}
+}

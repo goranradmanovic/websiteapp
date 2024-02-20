@@ -1,0 +1,54 @@
+.hero__bottom {
+	@include section-grid;
+	padding-top: 15rem;
+	padding-bottom: 8rem;
+	background-color: $clr-navy-charcoal;
+
+	.hero__container {
+		@include section-container;
+
+		.hero__bottom__logo {
+			grid-column: 1;
+			place-self: center;
+			width: 20rem;
+			aspect-ratio: 1;
+			object-fit: cover;
+		}
+
+		.hero__bottom__text {
+			grid-column: 2;
+			place-self: center;
+			display: flex;
+			flex-direction: column;
+
+			h2 {
+				padding-bottom: 2rem;
+				font-family: $ff-isidora;
+				font-size: clamp(2rem, 4vw, $fs-900);
+				font-weight: $fw-700;
+				line-height: clamp(2rem, 4vw, $fs-900);
+				text-transform: uppercase;
+
+				& span:nth-child(2) {
+					display: none;
+				}
+			}
+
+			.hero__bottom__text__cta {
+				width: max-content;
+				height: 4.25rem;
+				padding: 0 2.125rem;
+				font-size: 1.5rem;
+				font-weight: $fw-600;
+				line-height: 1.5rem;
+				text-transform: uppercase;
+				color: $clr-white;
+				transition: background-color .4s ease-in-out;
+			}
+
+			.hero__bottom__text__cta:hover {
+				background-color: $clr-mandarin;
+			}
+		}
+	}
+}

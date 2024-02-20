@@ -1,0 +1,50 @@
+/*========== Screen sizes ==========*/
+$mobile-s: 320px;
+$mobile-m: 375px;
+$mobile-l: 425px;
+$tablet: 768px;
+$laptop: 1024px;
+$laptop-l: 1440px;
+$screen-l: 2560px;
+
+$nav-height: 4.875rem;
+
+/*========== Font and typography ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+$ff-isidora-alt: 'Isidora Alt', system-ui, sans-serif;
+$ff-isidora: 'Isidora', system-ui, sans-serif;
+$ff-konnect: 'Konnect', system-ui, sans-serif;
+
+$fs-200: 0.5rem;
+$fs-400: 1rem;
+$fs-500: 1.125rem;
+$fs-600: 1.625rem;
+$fs-900: 3.5rem;
+
+/*========== Font weight ==========*/
+$fw-300: 300;
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+$fw-800: 800;
+$fw-900: 900;
+
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+$clr-navy-charcoal: hsla(216, 40%, 20%, 1);
+$clr-dark-navy: hsla(216, 45%, 15%, 1);
+$clr-light-navy: hsla(216, 39%, 23%, 1);
+$clr-gray-pink: hsla(344, 35%, 87%, 1);
+$clr-teal: hsla(198, 56%, 44%, 1);
+$clr-teal-transparent: hsla(198, 56%, 44%, .3);
+$clr-light-teal: hsla(198, 56%, 54%, 1);
+$clr-white-teal: hsla(198, 57%, 94%, 1);
+$clr-mandarin: hsla(13, 80%, 69%, 1);
+$clr-gold: hsla(48, 64%, 63%, 1);
+$clr-light-cherry: hsla(355, 64%, 56%, 1);
+$clr-white: hsla(0, 0%, 100%, 1);
+$clr-light-grey: hsla(216, 8%, 95%, 1);
+$clr-mid-grey: hsla(216, 15%, 90%, 1);
+$clr-green: hsla(162, 54%, 43%, 1);
+$clr-disabled-grey: hsla(0, 0%, 100%, .4);

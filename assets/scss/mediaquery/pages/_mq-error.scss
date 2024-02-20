@@ -1,0 +1,10 @@
+@media only screen and (max-width: $tablet) {
+
+	.error__container {
+		grid-column: 2;
+
+		.error__items {
+			width: 100%;
+		}
+	}
+}

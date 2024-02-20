@@ -1,0 +1,671 @@
+/*
+@font-face {
+  font-family: "Konnect";
+  src:
+    local("Konnect"),
+    url("assets/fonts/konnect/KonnectBlack.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectBlackItalic.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectBold.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectBoldItalic.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectHairline.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectHairlineItalic.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectItalic.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectLight.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectLightItalic.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectMedium.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectMediumItalic.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectRegular.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectSemiBold.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectSemiBoldItalic.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectThin.otf") format("opentype"),
+    url("assets/fonts/konnect/KonnectThinItalic.otf") format("opentype"),
+}
+
+@font-face {
+  font-family: "Isidora";
+  src:
+    local("Isidora"),
+    url("assets/fonts/isidora/Isidora-Black.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Black-Italic.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Bold.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Bold-Italic.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Italic.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Light.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Light-Italic.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Medium.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Medium-Italic.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Regular.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Semi-Bold.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Semi-Bold-Italic.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Thin.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Thin-Italic.otf") format("opentype"),
+}
+
+@font-face {
+  font-family: "Isidora Alt";
+  src:
+    local("Isidora Alt"),
+    url("assets/fonts/isidora/Isidora-Alt-Black.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Alt-Black-Italic.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Alt-Bold.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Alt-Bold-Italic.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Alt-Italic.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Alt-Light.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Alt-Light-Italic.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Alt-Medium.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Alt-Medium-Italic.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Alt-Regular.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Alt-Semi-Bold.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Alt-Semi-Bold-Italic.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Alt-Thin.otf") format("opentype"),
+    url("assets/fonts/isidora/Isidora-Alt-Thin-Italic.otf") format("opentype"),
+}
+*/
+
+@font-face {
+  font-family: "Konnect-Regular";
+  src: url("https://db.onlinewebfonts.com/t/3fed18a36b9edde1d5eabdc89d6bcb94.eot");
+  src: url("https://db.onlinewebfonts.com/t/3fed18a36b9edde1d5eabdc89d6bcb94.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/3fed18a36b9edde1d5eabdc89d6bcb94.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/3fed18a36b9edde1d5eabdc89d6bcb94.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/3fed18a36b9edde1d5eabdc89d6bcb94.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/3fed18a36b9edde1d5eabdc89d6bcb94.svg#Konnect-Regular")format("svg");
+}
+
+@font-face {
+  font-family: "Konnect-Medium";
+  src: url("https://db.onlinewebfonts.com/t/77bfec01862883e7d34a59c40156fe2f.eot");
+  src: url("https://db.onlinewebfonts.com/t/77bfec01862883e7d34a59c40156fe2f.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/77bfec01862883e7d34a59c40156fe2f.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/77bfec01862883e7d34a59c40156fe2f.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/77bfec01862883e7d34a59c40156fe2f.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/77bfec01862883e7d34a59c40156fe2f.svg#Konnect-Medium")format("svg");
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt Regular.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: italic;
+  font-weight: 400;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt Regular It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: normal;
+  font-weight: 100;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt Thin.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: italic;
+  font-weight: 250;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt Thin It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: italic;
+  font-weight: 280;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt Light It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: normal;
+  font-weight: 300;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt Light.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: normal;
+  font-weight: 500;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt Medium.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: italic;
+  font-weight: 500;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt Medium It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: normal;
+  font-weight: 600;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt SemiBold.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: italic;
+  font-weight: 600;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt SemiBold It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt Bold.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: italic;
+  font-weight: 700;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt Bold It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: normal;
+  font-weight: 900;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt Black.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft alt;
+  font-style: italic;
+  font-weight: 900;
+  src: local('Isidora Soft Alt'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Alt Black It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Regular.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltRegular.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraRegular.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltRegular.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansRegular.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: italic;
+  font-weight: 400;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Regular It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: italic;
+  font-weight: 400;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltRegularIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: italic;
+  font-weight: 400;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraRegularIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: italic;
+  font-weight: 400;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltRegularIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: italic;
+  font-weight: 400;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansRegularIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: normal;
+  font-weight: 250;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Thin.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: normal;
+  font-weight: 250;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltThin.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: normal;
+  font-weight: 250;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraThin.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: normal;
+  font-weight: 250;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltThin.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: normal;
+  font-weight: 250;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansThin.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: italic;
+  font-weight: 250;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Thin It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: italic;
+  font-weight: 250;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltThinIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: italic;
+  font-weight: 250;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraThinIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: italic;
+  font-weight: 250;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltThinIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: italic;
+  font-weight: 250;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansThinIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: normal;
+  font-weight: 280;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Light.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: italic;
+  font-weight: 280;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Light It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: normal;
+  font-weight: 300;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltLight.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: normal;
+  font-weight: 300;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraLight.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: normal;
+  font-weight: 300;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltLight.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: normal;
+  font-weight: 300;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansLight.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: italic;
+  font-weight: 300;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltLightIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: italic;
+  font-weight: 300;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraLightIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: italic;
+  font-weight: 300;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltLightIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: italic;
+  font-weight: 300;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansLightIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: normal;
+  font-weight: 500;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Medium.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: normal;
+  font-weight: 500;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltMedium.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: normal;
+  font-weight: 500;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraMedium.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: normal;
+  font-weight: 500;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltMedium.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: normal;
+  font-weight: 500;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansMedium.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: italic;
+  font-weight: 500;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Medium It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: italic;
+  font-weight: 500;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltMediumIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: italic;
+  font-weight: 500;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraMediumIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: italic;
+  font-weight: 500;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltMediumIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: italic;
+  font-weight: 500;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansMediumIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: normal;
+  font-weight: 600;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft SemiBold.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: normal;
+  font-weight: 600;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltSemiBold.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: normal;
+  font-weight: 600;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSemiBold.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: normal;
+  font-weight: 600;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltSemiBold.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: normal;
+  font-weight: 600;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansSemiBold.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: italic;
+  font-weight: 600;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft SemiBold It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: italic;
+  font-weight: 600;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltSemiBoldIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: italic;
+  font-weight: 600;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSemiBoldIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: italic;
+  font-weight: 600;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltSemiBoldIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: italic;
+  font-weight: 600;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansSemiBoldIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Bold.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltBold.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraBold.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltBold.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: normal;
+  font-weight: 700;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansBold.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: italic;
+  font-weight: 700;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Bold It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: italic;
+  font-weight: 700;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltBoldIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: italic;
+  font-weight: 700;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraBoldIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: italic;
+  font-weight: 700;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltBoldIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: italic;
+  font-weight: 700;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansBoldIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: normal;
+  font-weight: 900;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Black.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: normal;
+  font-weight: 900;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltBlack.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: normal;
+  font-weight: 900;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraBlack.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: normal;
+  font-weight: 900;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltBlack.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: normal;
+  font-weight: 900;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansBlack.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora soft;
+  font-style: italic;
+  font-weight: 900;
+  src: local('Isidora Soft'), url('https://fonts.cdnfonts.com/s/30442/Isidora Soft Black It.woff') format('woff')
+}
+
+@font-face {
+  font-family: isidora alt;
+  font-style: italic;
+  font-weight: 900;
+  src: local('Isidora Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraAltBlackIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora;
+  font-style: italic;
+  font-weight: 900;
+  src: local('Isidora'), url(https://fonts.cdnfonts.com/s/30442/IsidoraBlackIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans alt;
+  font-style: italic;
+  font-weight: 900;
+  src: local('Isidora Sans Alt'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansAltBlackIt.woff) format('woff')
+}
+
+@font-face {
+  font-family: isidora sans;
+  font-style: italic;
+  font-weight: 900;
+  src: local('Isidora Sans'), url(https://fonts.cdnfonts.com/s/30442/IsidoraSansBlackIt.woff) format('woff')
+}

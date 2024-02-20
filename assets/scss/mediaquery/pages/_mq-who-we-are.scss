@@ -1,0 +1,143 @@
+@media only screen and (max-width: $laptop) {
+	.hero.wwa {
+		background-size: 50%;
+	}
+}
+
+@media only screen and (max-width: $tablet) {
+	.hero.wwa {
+		.hero__container {
+			grid-column: 2;
+
+			.wwa__team__container__row  {
+				justify-content: space-evenly;
+			}
+		}
+	}
+
+	.wwa__team, .wwa__tech, .wwa__ca {
+    	.wwa__team__container,
+    	.wwa__tech__container,
+    	.wwa__ca__container {
+    		grid-column: 2;
+    		grid-template-columns: 1fr;
+
+        	.wwa__team__container__row,
+        	.wwa__tech__container__row,
+        	.wwa__ca__container__row  {
+        		grid-column: 1;
+				justify-content: space-evenly;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-l) {
+	.hero.wwa {
+		height: 35rem;
+		background-size: 95%;
+		background-position-y: 85%;
+
+		.hero__container {
+			place-self: start;
+			grid-template-columns: 1fr;
+
+			.hero__text {
+				text-align: center;
+			}
+		}
+	}
+
+	.wwa__team {
+    	.wwa__team__container {
+
+        	.wwa__team__container__row  {
+				justify-content: flex-start;
+				gap: 1.62rem;
+				padding-bottom: 2rem;
+
+				&:last-child {
+					gap: .75rem;
+					padding-top: 2rem;
+				}
+
+				h2 {
+					text-align: center;
+				}
+
+				.wwa__team__member {
+					flex-direction: row;
+					flex-wrap: wrap;
+					width: 100%;
+					height: auto;
+
+					img {
+						width: 3.125rem;
+						height: 3.125rem;
+						border-radius: 1.5625rem 0 1.5625rem 1.5625rem;
+					}
+
+					h3, p {
+						width: 100%;
+
+						br {
+							display: none;
+						}
+					}
+				}
+
+				.wwa__team__member__dev {
+					width: 11.5rem;
+					gap: .5rem;
+
+					svg {
+						width: 15%;
+					}
+				}
+			}
+		}
+	}
+
+	.wwa__tech {
+		padding-block: 3.125rem;
+
+		.wwa__tech__container {
+
+	        .wwa__tech__container__row {
+	        	gap: 2rem;
+
+	            div {
+	                gap: .5rem;
+	                text-align: center;
+	            }
+
+	            .tech__tags {
+	            	justify-content: center;
+	            }
+	        }
+    	}
+	}
+
+	.wwa__ca {
+		padding-block: 3.125rem;
+
+	    .wwa__ca__container {
+	        .wwa__ca__container__row {
+	            gap: 1rem;
+
+	            h2.wwa__ca__title {
+	            	text-align: center;
+	            }
+
+	            .wwa__ca__imgs {
+	                gap: 2rem;
+
+	                img {
+	                    width: 4rem;
+						height: 1.6875rem;
+	                }
+	            }
+	        }
+	    }
+	}
+}

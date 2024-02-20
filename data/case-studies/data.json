@@ -1,0 +1,453 @@
+[
+    {
+        "page": "safelives",
+        "company": "SafeLives",
+        "url": "/case-studies/articles/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut finibus risus.",
+        "displayOnSite": true,
+        "displayOnMenu": true,
+        "type": "Data Management",
+        "bannerUrl": "/assets/images/case-studies/safelives.webp",
+        "content": {
+            "calloutQuote": "Call out quote. At TSD, we don't shy away from complexity - we embrace it. We thrive on solving the most intricate technical challenges, etc.",
+            "challenge": "SafeLives, a registered UK charity and a government organisation dedicated to addressing domestic abuse at its core, faced a significant hurdle; their existing Multi-Agency Risk Assessment Conferences (Marac) data platform was built on Drupal 7—an architecture nearing its end-of-life.<br /> <br />The deprecation of Drupal 7 and dependence on their Marac data platform put them under immense pressure to act fast. Adding to this, the existing platform was cumbersome, especially during the critical phase of data validation, causing delays and frustrations for both users and administrators.",
+            "aside": {
+                "title": "Ready to Transform Your Digital Capabilities?",
+                "content": "<p>Experience the TSD difference. Reach out to us today to discuss how we can support your next mission-critical project. Contact Us Today on <a href='tel:+44 121 31 45 374'>+44 121 31 45 374</a> or email <a href='mailto:clinic@tsd.digital'>clinic@tsd.digital</a></p>"
+            },
+            "bodyId": "safelives_data_management",
+            "successStatements": [
+                {
+                    "icon": "/assets/images/icons/e-commerce/bag.svg",
+                    "label": "SUCCESS STATEMENT NUMBER ONE",
+                    "colour": "teal"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/design.svg",
+                    "label": "SUCCESS STATEMENT NUMBER TWO",
+                    "colour": "mandarin"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/payment.svg",
+                    "label": "SUCCESS STATEMENT NUMBER THREE",
+                    "colour": "gold"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/settings.svg",
+                    "label": "SUCCESS STATEMENT NUMBER FOUR",
+                    "colour": "red"
+                }
+            ]
+        }
+    },
+    {
+        "page": "etap",
+        "company": "ETAP",
+        "url": "/case-studies/articles/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut finibus risus.",
+        "displayOnSite": true,
+        "displayOnMenu": true,
+        "type": "e-Commerce and Training",
+        "bannerUrl": "/assets/images/case-studies/etap.webp",
+        "content": {
+            "calloutQuote": "Call out quote. At TSD, we don't shy away from complexity - we embrace it. We thrive on solving the most intricate technical challenges, etc.",
+            "challenge": "ETAP, a registered UK charity and a government organisation dedicated to addressing domestic abuse at its core, faced a significant hurdle; their existing Multi-Agency Risk Assessment Conferences (Marac) data platform was built on Drupal 7—an architecture nearing its end-of-life.<br /> <br />The deprecation of Drupal 7 and dependence on their Marac data platform put them under immense pressure to act fast. Adding to this, the existing platform was cumbersome, especially during the critical phase of data validation, causing delays and frustrations for both users and administrators.",
+            "aside": {
+                "title": "Ready to Transform Your E-Commerce Experience?",
+                "content": "<p>Your journey to a seamless, integrated, and future-proof e-commerce solution begins with the right partner. Let TSD guide your business through its digital evolution.</p> <p>With expertise in Sitefinity, Ucommerce, and tailored solutions, we turn challenges into success stories. Don't just adapt; lead with us.</p> <p>Contact Us Today for a <a href='tel:+44 121 31 45 374'>Custom Consultation</a> or email <a href='mailto:clinic@tsd.digital'>clinic@tsd.digital</a></p>"
+            },
+            "bodyId": "safelives_data_management",
+            "successStatements": [
+                {
+                    "icon": "/assets/images/icons/e-commerce/bag.svg",
+                    "label": "SUCCESS STATEMENT NUMBER ONE",
+                    "colour": "teal"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/design.svg",
+                    "label": "SUCCESS STATEMENT NUMBER TWO",
+                    "colour": "mandarin"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/payment.svg",
+                    "label": "SUCCESS STATEMENT NUMBER THREE",
+                    "colour": "gold"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/settings.svg",
+                    "label": "SUCCESS STATEMENT NUMBER FOUR",
+                    "colour": "red"
+                }
+            ]
+        }
+    },
+    {
+        "page": "westons",
+        "company": "Westons",
+        "url": "/case-studies/articles/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut finibus risus.",
+        "displayOnSite": true,
+        "displayOnMenu": true,
+        "type": "e-Commerce",
+        "bannerUrl": "/assets/images/case-studies/westons.webp",
+        "content": {
+            "calloutQuote": "Call out quote. At TSD, we don't shy away from complexity - we embrace it. We thrive on solving the most intricate technical challenges, etc.",
+            "challenge": "Westons, a registered UK charity and a government organisation dedicated to addressing domestic abuse at its core, faced a significant hurdle; their existing Multi-Agency Risk Assessment Conferences (Marac) data platform was built on Drupal 7—an architecture nearing its end-of-life.<br /> <br />The deprecation of Drupal 7 and dependence on their Marac data platform put them under immense pressure to act fast. Adding to this, the existing platform was cumbersome, especially during the critical phase of data validation, causing delays and frustrations for both users and administrators.",
+            "aside": {
+                "title": "Ready to Transform Your Digital Capabilities?",
+                "content": "<p>Experience the TSD difference. Reach out to us today to discuss how we can support your next mission-critical project. Contact Us Today on <a href='tel:+44 121 31 45 374'>+44 121 31 45 374</a> or email <a href='mailto:clinic@tsd.digital'>clinic@tsd.digital</a></p>"
+            },
+            "bodyId": "safelives_data_management",
+            "successStatements": [
+                {
+                    "icon": "/assets/images/icons/e-commerce/bag.svg",
+                    "label": "SUCCESS STATEMENT NUMBER ONE",
+                    "colour": "teal"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/design.svg",
+                    "label": "SUCCESS STATEMENT NUMBER TWO",
+                    "colour": "mandarin"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/payment.svg",
+                    "label": "SUCCESS STATEMENT NUMBER THREE",
+                    "colour": "gold"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/settings.svg",
+                    "label": "SUCCESS STATEMENT NUMBER FOUR",
+                    "colour": "red"
+                }
+            ]
+        }
+    },
+    {
+        "page": "redspeed",
+        "company": "RedSpeed",
+        "url": "/case-studies/articles/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut finibus risus.",
+        "displayOnSite": true,
+        "displayOnMenu": true,
+        "type": "e-Commerce",
+        "bannerUrl": "/assets/images/case-studies/redspeed.webp",
+        "content": {
+            "calloutQuote": "Call out quote. At TSD, we don't shy away from complexity - we embrace it. We thrive on solving the most intricate technical challenges, etc.",
+            "challenge": "RedSpeed, a registered UK charity and a government organisation dedicated to addressing domestic abuse at its core, faced a significant hurdle; their existing Multi-Agency Risk Assessment Conferences (Marac) data platform was built on Drupal 7—an architecture nearing its end-of-life.<br /> <br />The deprecation of Drupal 7 and dependence on their Marac data platform put them under immense pressure to act fast. Adding to this, the existing platform was cumbersome, especially during the critical phase of data validation, causing delays and frustrations for both users and administrators.",
+            "aside": {
+                "title": "Ready to Transform Your E-Commerce Experience?",
+                "content": "<p>Your journey to a seamless, integrated, and future-proof e-commerce solution begins with the right partner. Let TSD guide your business through its digital evolution.</p> <p>With expertise in Sitefinity, Ucommerce, and tailored solutions, we turn challenges into success stories. Don't just adapt; lead with us.</p> <p>Contact Us Today for a <a href='tel:+44 121 31 45 374'>Custom Consultation</a> or email <a href='mailto:clinic@tsd.digital'>clinic@tsd.digital</a></p>"
+            },
+            "bodyId": "safelives_data_management",
+            "successStatements": [
+                {
+                    "icon": "/assets/images/icons/e-commerce/bag.svg",
+                    "label": "SUCCESS STATEMENT NUMBER ONE",
+                    "colour": "teal"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/design.svg",
+                    "label": "SUCCESS STATEMENT NUMBER TWO",
+                    "colour": "mandarin"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/payment.svg",
+                    "label": "SUCCESS STATEMENT NUMBER THREE",
+                    "colour": "gold"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/settings.svg",
+                    "label": "SUCCESS STATEMENT NUMBER FOUR",
+                    "colour": "red"
+                }
+            ]
+        }
+    },
+    {
+        "page": "brightwells",
+        "company": "Brightwells",
+        "url": "/case-studies/articles/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut finibus risus.",
+        "displayOnSite": true,
+        "displayOnMenu": true,
+        "type": "Auction Platform",
+        "bannerUrl": "/assets/images/case-studies/brightwells.webp",
+        "content": {
+            "calloutQuote": "Call out quote. At TSD, we don't shy away from complexity - we embrace it. We thrive on solving the most intricate technical challenges, etc.",
+            "challenge": "Westons, a registered UK charity and a government organisation dedicated to addressing domestic abuse at its core, faced a significant hurdle; their existing Multi-Agency Risk Assessment Conferences (Marac) data platform was built on Drupal 7—an architecture nearing its end-of-life.<br /> <br />The deprecation of Drupal 7 and dependence on their Marac data platform put them under immense pressure to act fast. Adding to this, the existing platform was cumbersome, especially during the critical phase of data validation, causing delays and frustrations for both users and administrators.",
+            "aside": {
+                "title": "Ready to Transform Your Digital Capabilities?",
+                "content": "<p>Experience the TSD difference. Reach out to us today to discuss how we can support your next mission-critical project. Contact Us Today on <a href='tel:+44 121 31 45 374'>+44 121 31 45 374</a> or email <a href='mailto:clinic@tsd.digital'>clinic@tsd.digital</a></p>"
+            },
+            "bodyId": "safelives_data_management",
+            "successStatements": [
+                {
+                    "icon": "/assets/images/icons/e-commerce/bag.svg",
+                    "label": "SUCCESS STATEMENT NUMBER ONE",
+                    "colour": "teal"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/design.svg",
+                    "label": "SUCCESS STATEMENT NUMBER TWO",
+                    "colour": "mandarin"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/payment.svg",
+                    "label": "SUCCESS STATEMENT NUMBER THREE",
+                    "colour": "gold"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/settings.svg",
+                    "label": "SUCCESS STATEMENT NUMBER FOUR",
+                    "colour": "red"
+                }
+            ]
+        }
+    },
+    {
+        "page": "wye-valley-brewery",
+        "company": "Wye Valley Brewery",
+        "url": "/case-studies/articles/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut finibus risus.",
+        "displayOnSite": true,
+        "displayOnMenu": true,
+        "type": "e-Commerce",
+        "bannerUrl": "/assets/images/case-studies/wye-valley.webp",
+        "content": {
+            "calloutQuote": "Call out quote. At TSD, we don't shy away from complexity - we embrace it. We thrive on solving the most intricate technical challenges, etc.",
+            "challenge": "Westons, a registered UK charity and a government organisation dedicated to addressing domestic abuse at its core, faced a significant hurdle; their existing Multi-Agency Risk Assessment Conferences (Marac) data platform was built on Drupal 7—an architecture nearing its end-of-life.<br /> <br />The deprecation of Drupal 7 and dependence on their Marac data platform put them under immense pressure to act fast. Adding to this, the existing platform was cumbersome, especially during the critical phase of data validation, causing delays and frustrations for both users and administrators.",
+            "aside": {
+                "title": "Ready to Transform Your Digital Capabilities?",
+                "content": "<p>Experience the TSD difference. Reach out to us today to discuss how we can support your next mission-critical project. Contact Us Today on <a href='tel:+44 121 31 45 374'>+44 121 31 45 374</a> or email <a href='mailto:clinic@tsd.digital'>clinic@tsd.digital</a></p>"
+            },
+            "bodyId": "safelives_data_management",
+            "successStatements": [
+                {
+                    "icon": "/assets/images/icons/e-commerce/bag.svg",
+                    "label": "SUCCESS STATEMENT NUMBER ONE",
+                    "colour": "teal"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/design.svg",
+                    "label": "SUCCESS STATEMENT NUMBER TWO",
+                    "colour": "mandarin"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/payment.svg",
+                    "label": "SUCCESS STATEMENT NUMBER THREE",
+                    "colour": "gold"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/settings.svg",
+                    "label": "SUCCESS STATEMENT NUMBER FOUR",
+                    "colour": "red"
+                }
+            ]
+        }
+    },
+    {
+        "page": "delineate",
+        "company": "Delineate",
+        "url": "/case-studies/articles/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut finibus risus.",
+        "displayOnSite": true,
+        "displayOnMenu": true,
+        "type": "e-Commerce",
+        "bannerUrl": "/assets/images/case-studies/wye-valley.webp",
+        "content": {
+            "calloutQuote": "Call out quote. At TSD, we don't shy away from complexity - we embrace it. We thrive on solving the most intricate technical challenges, etc.",
+            "challenge": "Westons, a registered UK charity and a government organisation dedicated to addressing domestic abuse at its core, faced a significant hurdle; their existing Multi-Agency Risk Assessment Conferences (Marac) data platform was built on Drupal 7—an architecture nearing its end-of-life.<br /> <br />The deprecation of Drupal 7 and dependence on their Marac data platform put them under immense pressure to act fast. Adding to this, the existing platform was cumbersome, especially during the critical phase of data validation, causing delays and frustrations for both users and administrators.",
+            "aside": {
+                "title": "Ready to Transform Your Digital Capabilities?",
+                "content": "<p>Experience the TSD difference. Reach out to us today to discuss how we can support your next mission-critical project. Contact Us Today on <a href='tel:+44 121 31 45 374'>+44 121 31 45 374</a> or email <a href='mailto:clinic@tsd.digital'>clinic@tsd.digital</a></p>"
+            },
+            "bodyId": "safelives_data_management",
+            "successStatements": [
+                {
+                    "icon": "/assets/images/icons/e-commerce/bag.svg",
+                    "label": "SUCCESS STATEMENT NUMBER ONE",
+                    "colour": "teal"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/design.svg",
+                    "label": "SUCCESS STATEMENT NUMBER TWO",
+                    "colour": "mandarin"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/payment.svg",
+                    "label": "SUCCESS STATEMENT NUMBER THREE",
+                    "colour": "gold"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/settings.svg",
+                    "label": "SUCCESS STATEMENT NUMBER FOUR",
+                    "colour": "red"
+                }
+            ]
+        }
+    },
+    {
+        "page": "joe-davies",
+        "company": "Joe Davies",
+        "url": "/case-studies/articles/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut finibus risus.",
+        "displayOnSite": true,
+        "displayOnMenu": true,
+        "type": "Auction Platform",
+        "bannerUrl": "/assets/images/case-studies/brightwells.webp",
+        "content": {
+            "calloutQuote": "Call out quote. At TSD, we don't shy away from complexity - we embrace it. We thrive on solving the most intricate technical challenges, etc.",
+            "challenge": "Westons, a registered UK charity and a government organisation dedicated to addressing domestic abuse at its core, faced a significant hurdle; their existing Multi-Agency Risk Assessment Conferences (Marac) data platform was built on Drupal 7—an architecture nearing its end-of-life.<br /> <br />The deprecation of Drupal 7 and dependence on their Marac data platform put them under immense pressure to act fast. Adding to this, the existing platform was cumbersome, especially during the critical phase of data validation, causing delays and frustrations for both users and administrators.",
+            "aside": {
+                "title": "Ready to Transform Your Digital Capabilities?",
+                "content": "<p>Experience the TSD difference. Reach out to us today to discuss how we can support your next mission-critical project. Contact Us Today on <a href='tel:+44 121 31 45 374'>+44 121 31 45 374</a> or email <a href='mailto:clinic@tsd.digital'>clinic@tsd.digital</a></p>"
+            },
+            "bodyId": "safelives_data_management",
+            "successStatements": [
+                {
+                    "icon": "/assets/images/icons/e-commerce/bag.svg",
+                    "label": "SUCCESS STATEMENT NUMBER ONE",
+                    "colour": "teal"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/design.svg",
+                    "label": "SUCCESS STATEMENT NUMBER TWO",
+                    "colour": "mandarin"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/payment.svg",
+                    "label": "SUCCESS STATEMENT NUMBER THREE",
+                    "colour": "gold"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/settings.svg",
+                    "label": "SUCCESS STATEMENT NUMBER FOUR",
+                    "colour": "red"
+                }
+            ]
+        }
+    },
+    {
+        "page": "british-library",
+        "company": "British Library",
+        "url": "/case-studies/articles/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut finibus risus.",
+        "displayOnSite": true,
+        "displayOnMenu": true,
+        "type": "e-Commerce",
+        "bannerUrl": "/assets/images/case-studies/wye-valley.webp",
+        "content": {
+            "calloutQuote": "Call out quote. At TSD, we don't shy away from complexity - we embrace it. We thrive on solving the most intricate technical challenges, etc.",
+            "challenge": "Westons, a registered UK charity and a government organisation dedicated to addressing domestic abuse at its core, faced a significant hurdle; their existing Multi-Agency Risk Assessment Conferences (Marac) data platform was built on Drupal 7—an architecture nearing its end-of-life.<br /> <br />The deprecation of Drupal 7 and dependence on their Marac data platform put them under immense pressure to act fast. Adding to this, the existing platform was cumbersome, especially during the critical phase of data validation, causing delays and frustrations for both users and administrators.",
+            "aside": {
+                "title": "Ready to Transform Your Digital Capabilities?",
+                "content": "<p>Experience the TSD difference. Reach out to us today to discuss how we can support your next mission-critical project. Contact Us Today on <a href='tel:+44 121 31 45 374'>+44 121 31 45 374</a> or email <a href='mailto:clinic@tsd.digital'>clinic@tsd.digital</a></p>"
+            },
+            "bodyId": "safelives_data_management",
+            "successStatements": [
+                {
+                    "icon": "/assets/images/icons/e-commerce/bag.svg",
+                    "label": "SUCCESS STATEMENT NUMBER ONE",
+                    "colour": "teal"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/design.svg",
+                    "label": "SUCCESS STATEMENT NUMBER TWO",
+                    "colour": "mandarin"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/payment.svg",
+                    "label": "SUCCESS STATEMENT NUMBER THREE",
+                    "colour": "gold"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/settings.svg",
+                    "label": "SUCCESS STATEMENT NUMBER FOUR",
+                    "colour": "red"
+                }
+            ]
+        }
+    },
+    {
+        "page": "schlumberger",
+        "company": "Schlumberger",
+        "url": "/case-studies/articles/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut finibus risus.",
+        "displayOnSite": true,
+        "displayOnMenu": true,
+        "type": "e-Commerce",
+        "bannerUrl": "/assets/images/case-studies/redspeed.webp",
+        "content": {
+            "calloutQuote": "Call out quote. At TSD, we don't shy away from complexity - we embrace it. We thrive on solving the most intricate technical challenges, etc.",
+            "challenge": "RedSpeed, a registered UK charity and a government organisation dedicated to addressing domestic abuse at its core, faced a significant hurdle; their existing Multi-Agency Risk Assessment Conferences (Marac) data platform was built on Drupal 7—an architecture nearing its end-of-life.<br /> <br />The deprecation of Drupal 7 and dependence on their Marac data platform put them under immense pressure to act fast. Adding to this, the existing platform was cumbersome, especially during the critical phase of data validation, causing delays and frustrations for both users and administrators.",
+            "aside": {
+                "title": "Ready to Transform Your E-Commerce Experience?",
+                "content": "<p>Your journey to a seamless, integrated, and future-proof e-commerce solution begins with the right partner. Let TSD guide your business through its digital evolution.</p> <p>With expertise in Sitefinity, Ucommerce, and tailored solutions, we turn challenges into success stories. Don't just adapt; lead with us.</p> <p>Contact Us Today for a <a href='tel:+44 121 31 45 374'>Custom Consultation</a> or email <a href='mailto:clinic@tsd.digital'>clinic@tsd.digital</a></p>"
+            },
+            "bodyId": "safelives_data_management",
+            "successStatements": [
+                {
+                    "icon": "/assets/images/icons/e-commerce/bag.svg",
+                    "label": "SUCCESS STATEMENT NUMBER ONE",
+                    "colour": "teal"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/design.svg",
+                    "label": "SUCCESS STATEMENT NUMBER TWO",
+                    "colour": "mandarin"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/payment.svg",
+                    "label": "SUCCESS STATEMENT NUMBER THREE",
+                    "colour": "gold"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/settings.svg",
+                    "label": "SUCCESS STATEMENT NUMBER FOUR",
+                    "colour": "red"
+                }
+            ]
+        }
+    },
+    {
+        "page": "alphastream",
+        "company": "Alphastream",
+        "url": "/case-studies/articles/",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut finibus risus.",
+        "displayOnSite": true,
+        "displayOnMenu": true,
+        "type": "e-Commerce",
+        "bannerUrl": "/assets/images/case-studies/redspeed.webp",
+        "content": {
+            "calloutQuote": "Call out quote. At TSD, we don't shy away from complexity - we embrace it. We thrive on solving the most intricate technical challenges, etc.",
+            "challenge": "RedSpeed, a registered UK charity and a government organisation dedicated to addressing domestic abuse at its core, faced a significant hurdle; their existing Multi-Agency Risk Assessment Conferences (Marac) data platform was built on Drupal 7—an architecture nearing its end-of-life.<br /> <br />The deprecation of Drupal 7 and dependence on their Marac data platform put them under immense pressure to act fast. Adding to this, the existing platform was cumbersome, especially during the critical phase of data validation, causing delays and frustrations for both users and administrators.",
+            "aside": {
+                "title": "Ready to Transform Your E-Commerce Experience?",
+                "content": "<p>Your journey to a seamless, integrated, and future-proof e-commerce solution begins with the right partner. Let TSD guide your business through its digital evolution.</p> <p>With expertise in Sitefinity, Ucommerce, and tailored solutions, we turn challenges into success stories. Don't just adapt; lead with us.</p> <p>Contact Us Today for a <a href='tel:+44 121 31 45 374'>Custom Consultation</a> or email <a href='mailto:clinic@tsd.digital'>clinic@tsd.digital</a></p>"
+            },
+            "bodyId": "safelives_data_management",
+            "successStatements": [
+                {
+                    "icon": "/assets/images/icons/e-commerce/bag.svg",
+                    "label": "SUCCESS STATEMENT NUMBER ONE",
+                    "colour": "teal"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/design.svg",
+                    "label": "SUCCESS STATEMENT NUMBER TWO",
+                    "colour": "mandarin"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/payment.svg",
+                    "label": "SUCCESS STATEMENT NUMBER THREE",
+                    "colour": "gold"
+                },
+                {
+                    "icon": "/assets/images/icons/e-commerce/settings.svg",
+                    "label": "SUCCESS STATEMENT NUMBER FOUR",
+                    "colour": "red"
+                }
+            ]
+        }
+    }
+]

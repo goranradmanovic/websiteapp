@@ -1,0 +1,63 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    height: 2.75rem;
+    padding: 0 1.5rem;
+}
+
+.btn-rounded {
+    border-radius: 2.5rem;
+}
+
+.btn-bg-green {
+    background-color: $clr-green;
+}
+
+.btn-clr-white {
+    color: $clr-white;
+}
+
+.btn-outline {
+    border: 2px solid $clr-green;
+    background-color: transparent;
+}
+
+.btn-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.btn-icon.green {
+    fill: $clr-green;
+}
+
+.btn-icon.white {
+    fill: $clr-white;
+}
+
+.btn-lr-radius-m {
+    border-radius: 0 3.75rem;
+}
+
+/* CTA */
+.cta {
+    place-self: center;
+    width: 100%;
+    max-width: 90rem;
+    height: 7.5rem;
+    margin: 1rem 0;
+    text-align: center;
+    font-family: $ff-isidora-alt;
+    font-size: clamp(1.375rem, 4vw, 2.125rem);
+    font-style: normal;
+    font-weight: $fw-600;
+    line-height: 2.25rem;
+    color: $clr-white;
+    transition: background-color .4s ease-in-out;
+
+    &:hover {
+        background-color: $clr-mandarin;
+    }
+}

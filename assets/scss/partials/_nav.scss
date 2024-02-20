@@ -1,0 +1,203 @@
+.nav {
+    position: relative;
+    grid-row: 1;
+    place-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90rem;
+    width: 100%;
+    height: $nav-height;
+    
+    .nav__logo {
+        display: block;
+        width: 6.5rem;
+        height: 2.875rem;
+    }
+
+    .nav__toggle {
+        display: none;
+
+        svg {
+            fill: $clr-green;
+        }
+    }
+
+    .nav__list {
+        display: flex;
+        align-items: center;
+        height: 2.875rem;
+        background-color: $clr-navy-charcoal;
+        transition: all .4s ease-in-out;
+
+        li, .dropdown__item > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 0 1.125rem;
+            border-radius: 1rem 0;
+            cursor: pointer;
+            transition: background-color .4s ease-in-out;
+        }
+
+        li:first-child, li:nth-child(2) {
+            display: none;
+        }
+
+        li:first-child:hover {
+            background-color: unset;
+        }
+
+        li:hover {
+            background-color: $clr-green;
+        }
+
+        li svg {
+            fill: $clr-green;
+        }
+
+        li:hover svg {
+            fill: $clr-white;
+        }
+
+        li.nav__list__close {
+            padding: unset;
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 2.5rem;
+                height: 2.5rem;
+                border-radius: 50%;
+                background-color: $clr-dark-navy;
+
+                svg {
+                    fill: $clr-white;
+                }
+            }
+        }
+
+        .dropdown__item {
+            position: relative;
+
+            div {
+                padding: unset;
+            }
+        }
+
+        .nav__link {
+            font-size: $fs-400;
+            font-style: normal;
+            font-weight: $fw-600;
+            line-height: 0.875rem;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            color: white;
+        }
+    }
+
+    .dropdown__menu.open {
+        top: calc($nav-height + 2.25rem);
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .dropdown__menu {
+        position: absolute;
+        top: -100%;
+        left: calc(50% - 22rem);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        padding: 1.875rem;
+        border-radius: 1rem;
+        visibility: hidden;
+        opacity: 0;
+        box-shadow: 0 3px 14px 2px rgba(0, 0, 0, .25);
+        background-color: $clr-light-navy;
+        transition: all .4s ease-in-out;
+
+        li:nth-child(2) {
+            display: none;
+        }
+
+        li:last-child {
+            grid-column: span 4;
+            place-content: start;
+        }
+
+        li:hover {
+            background-color: $clr-green;
+        }
+
+        li.dropdown__menu__close:hover, li:last-child:hover {
+            background-color: unset;
+        }
+
+        li.dropdown__menu__close {
+            display: none;
+            justify-content: flex-end;
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 2.5rem;
+                height: 2.5rem;
+                border-radius: 50%;
+                background-color: $clr-dark-navy;
+
+                svg {
+                    fill: $clr-white;
+                }
+            }
+        }
+
+        .dropdown__menu__card {
+            width: 18rem;
+            padding: 1rem;
+            border-radius: 1rem 0;
+            transition: all .4s ease-in-out;
+
+            h2 {
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: $fw-700;
+                line-height: 1.375rem;
+                letter-spacing: .2rem;
+                text-transform: uppercase;
+            }
+
+            .card__link {
+                color: $clr-white;
+
+                h3 {
+                    margin-bottom: .75rem;
+                    font-size: $fs-400;
+                    font-style: normal;
+                    font-weight: $fw-700;
+                    line-height: 1.375rem;
+                    letter-spacing: .15rem;
+                    text-transform: uppercase;
+                }
+            
+                p {
+                    font-size: $fs-400;
+                    font-style: normal;
+                    font-weight: $fw-400;
+                    line-height: 1.5rem;
+                }
+            }
+
+            .dropdown__menu__card--cta {
+                transition: background-color .4s ease-in-out;
+            }
+
+            .dropdown__menu__card--cta:hover {
+                background-color: $clr-mandarin;
+            }
+        }
+    }
+}

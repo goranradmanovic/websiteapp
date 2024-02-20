@@ -1,0 +1,72 @@
+@media only screen and (max-width: $laptop-l) {
+	.hero {
+	    &.cu {
+			background-position-x: 80%;
+	    }
+	}
+}
+
+@media only screen and (max-width: $laptop) {
+	.hero {
+	    &.cu {
+	    	background-position-x: 90%;
+	    }
+	}
+
+	.cu__content {
+	    .cu__content__container {
+	        .cu__content__form {
+	        	width: 80%;
+	        }
+	    }
+	}
+}
+
+@media only screen and (max-width: $tablet) {
+	.cu__content {
+	    .cu__content__container {
+	        grid-column: 2;
+	        grid-template-columns: 1fr;
+
+	        .cu__content__form {
+	        	width: 100%;
+
+	        	.cu__content__form__group {
+	        		.cu__content__form__submit {
+	        			width: unset;
+	        		}
+	        	}
+	        }
+
+	        .cu__content__info {
+	        	place-self: start;
+            	grid-column: 1;
+            	padding-top: 3rem;
+        	}
+	    }
+	}
+}
+
+
+@media only screen and (max-width: $mobile-l) {
+	.hero {
+
+		&.cu {
+			height: 30rem;
+			background-position-x: center;
+			background-position-y: 0;
+			background-size: 50%;
+
+			.hero__container {
+				align-self: flex-end;
+				grid-column: 2;
+				grid-template-columns: 1fr;
+
+				.hero__text {
+					padding-right: unset;
+					text-align: center;
+				}
+			}
+		}
+	}
+}

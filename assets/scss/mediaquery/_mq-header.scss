@@ -1,0 +1,19 @@
+@media only screen and (max-width: $laptop) {
+	.header {
+		grid-template-rows: 2.25rem 1fr;
+
+		.contact__info {
+			display: flex;
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-l) {
+	.header {
+		grid-template-rows: 1fr;
+
+		.contact__info {
+			display: none;
+		}
+	}
+}

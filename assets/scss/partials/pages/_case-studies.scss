@@ -1,0 +1,300 @@
+/* Case Studies (cs) Hero */
+.hero {
+
+    &.cs {
+        height: 20rem;
+        margin-block: 3rem;
+        padding-block: unset;
+        @include bg-img('illustrations/casestudies.svg');
+        background-position-x: 80%;
+        background-size: contain;
+    }
+}
+
+.cs__list {
+    @include section-grid;
+    padding-block: 3rem;
+    background-color: $clr-navy-charcoal;
+
+    .cs__list__container  {
+        @include section-container;
+
+        .cs__cards {
+            grid-column: span 2;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            gap: 2rem 2.5rem;
+
+            .cs__card {
+                width: 25rem;
+
+                .cs__card__img {
+                    height: 17.5rem;
+                    border-radius: 3.125rem 0;
+                }
+
+                .cs__card__tag {
+                    display: flex;
+                    width: max-content;
+                    padding: .5625rem 1.125rem;
+                    transform: translate(1rem, -1.5rem);
+                    font-size: clamp($fs-400, 4vw, 1.5rem);
+                    font-weight: $fw-700;
+                    line-height: clamp(1.625rem, 4vw, 1.1875rem);
+                    letter-spacing: clamp(.1275rem, 4vw, .24rem);
+                    text-transform: uppercase;
+                    color: $clr-white;
+                    background-color: $clr-mandarin;
+                }
+
+                .cs__card__text {
+                    padding-left: .5rem;
+                    transform: translate(1rem, -1rem);
+                    font-size: clamp($fs-400, 4vw, 1.125rem);
+                    font-weight: $fw-400;
+                    line-height: clamp(1.375rem, 4vw, 1.5rem);
+                }
+            }
+        }
+    }
+}
+
+/* Case Stuides Blog */
+.hero.csb {
+    padding-block: 5rem;
+
+    .hero__container {
+        @include section-container;
+
+        .csb__testimonials {
+           grid-column: span 2;
+           display: flex;
+           align-items: flex-start;
+           gap: 0 2.375rem;
+
+            .card__quote__icon {
+                img {
+                    width: 8rem;
+                }
+            }
+
+            .card__content {
+                font-family: $ff-isidora-alt;
+                font-size: clamp(1.875rem, 4vw, 2.5rem);
+                font-weight: $fw-600;
+                line-height: clamp(2.1875rem, 4vw, 2.875rem);
+            }
+        }
+    }
+}
+
+.csb__hero {
+    @include section-grid;
+    height: 37.5rem;
+    @include bg-img('case-studies/safelives.webp');
+    background-size: cover;
+
+    .csb__hero__container {
+        @include section-container;
+        align-self: flex-end;
+
+        .csb__hero__card {
+            grid-column: 1;
+            align-items: flex-start;
+            width: 48rem;
+            padding: 2.75rem 3.125rem 3.125rem 3.125rem;
+            transform: translate(0, 25%);
+            background-color: $clr-mandarin;
+
+            h2 {
+                font-family: $ff-isidora;
+                font-size: clamp(2rem, 4vw, $fs-900);
+                font-weight: $fw-700;
+                line-height: clamp(2rem, 4vw, $fs-900);
+                text-transform: uppercase;
+            }
+
+            h3 {
+                font-size: clamp(1.25rem, 4vw, 1.5rem);
+                font-weight: $fw-700;
+                line-height: clamp(1.375rem, 4vw, 1.625rem);
+                letter-spacing: .24rem;
+                text-transform: uppercase;
+                color: $clr-navy-charcoal;
+            }
+
+            p {
+                font-size: clamp($fs-400, 4vw, 1.125rem);
+                font-weight: $fw-400;
+                line-height: clamp(1.375rem, 4vw, 1.5rem);
+                color: $clr-navy-charcoal;
+            }
+        }
+    }
+}
+
+.csb__content {
+    @include section-grid;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    color: $clr-navy-charcoal;
+    background-color: $clr-white-teal;
+
+    .csb__content__container {
+        @include section-container;
+        grid-template-columns: 1fr .25fr;
+
+        .csb__content__article {
+            grid-column: 1;
+
+            h1 {
+                font-size: clamp($fs-400, 4vw, $fs-900);
+                text-align: center;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem 0;
+
+                h2 {
+                    padding-top: 2.12rem;
+                    font-size: clamp(1.25rem, 4vw, 1.5rem);
+                    font-weight: $fw-700;
+                    line-height: clamp(1.375rem, 4vw, 1.625rem);
+                    letter-spacing: .24rem;
+                    text-transform: uppercase;
+
+                    a {
+                        color: $clr-navy-charcoal;
+                    }
+                }
+
+                p, ul, ol {
+                    font-size: clamp($fs-400, 4vw, 1.125rem);
+                    font-weight: $fw-400;
+                    line-height: clamp(1.375rem, 4vw, 1.5rem);
+                }
+
+                ul, ol {
+                    padding-left: 2rem;
+                    list-style-type: initial;
+                }
+
+                ol {
+                    list-style-type: decimal;
+                }
+            }
+        }
+
+        .csb__content__aside {
+            grid-column: 2;
+
+            .csb__content__aside__card {
+                position: sticky;
+                top: calc($nav-height + 1rem);
+                width: 22rem;
+                padding: 2.75rem 3.125rem 3.125rem 3.125rem;
+                color: $clr-white;
+                background-color: $clr-green;
+
+                h2 {
+                    font-size: clamp(1.25rem, 4vw, 1.5rem);
+                    font-weight: $fw-700;
+                    line-height: clamp(1.375rem, 4vw, 1.625rem);
+                    letter-spacing: .24rem;
+                    text-transform: uppercase;
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem 0;
+                    
+                    p {
+                        font-size: clamp($fs-400, 4vw, 1.125rem);
+                        font-weight: $fw-400;
+                        line-height: clamp(1.375rem, 4vw, 1.5rem);
+
+                        a {
+                            font-weight: $fw-700;
+                            color: $clr-white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.csb__footer {
+    @include section-grid;
+    padding-block: 3rem;
+    color: $clr-navy-charcoal;
+    background-color: $clr-white-teal;
+
+    .csb__footer__container {
+        @include section-container;
+        grid-template-columns: 1fr;
+
+        .csb__footer__container__items {
+            grid-column: 1;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem 2.5rem;
+
+            .csb__footer__item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1.5rem 0;
+                width: 17rem;
+                height: 9rem;
+
+                .csb__footer__item__icon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 4.875rem;
+                    height: 4.875rem;
+                    aspect-ratio: 1;
+                    border-radius: 50%;
+
+                    &.clr-teal {
+                        background-color: $clr-teal;
+                    }
+
+                    &.clr-mandarin {
+                        background-color: $clr-mandarin;
+                    }
+
+                    &.clr-gold {
+                        background-color: $clr-gold;
+                    }
+
+                    &.clr-red {
+                        background-color: $clr-light-cherry;
+                    }
+
+                    img {
+                        width: 2.375rem;
+                        height: 2.375rem;
+                    }
+                }
+
+                h3 {
+                    font-size: clamp($fs-400, 4vw, 1.25rem);
+                    font-weight: $fw-700;
+                    line-height: 1.375rem;
+                    letter-spacing: .15rem;
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

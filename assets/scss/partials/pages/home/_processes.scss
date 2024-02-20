@@ -1,0 +1,110 @@
+.processes {
+	@include section-grid;
+	padding-top: 5rem;
+	padding-bottom: 8rem;
+	background-image: url(../images/illustrations/complexityheadon.svg), url(../images/illustrations/integrateseamlessly.svg),
+		url(../images/illustrations/support.svg), url(../images/illustrations/keptintheloop.svg);
+	background-size: 80%, 80%, 35%, 65%;
+	background-position: 290% 15%, -170% 35%, 85% 58%, -60% 80%;
+	background-repeat: no-repeat;
+	background-color: $clr-navy-charcoal;
+
+	.processes__container {
+		@include section-container;
+
+		.title {
+			grid-column: span 2;
+	        place-self: center;
+	        text-align: center;
+	        padding-bottom: 4rem;
+
+	        p {
+	        	padding-bottom: 1rem;
+	        	font-size: clamp(1.25em, 4vw, 1.5rem);
+				font-style: normal;
+				font-weight: $fw-700;
+				line-height: 1.625rem;
+				letter-spacing: .24rem;
+				text-transform: uppercase;
+				color: $clr-teal;
+	        }
+
+	        h2 {
+	        	font-family: $ff-isidora;
+				font-size: clamp(2rem, 4vw, $fs-900);
+				font-style: normal;
+				font-weight: $fw-700;
+				line-height: clamp(2rem, 4vw, $fs-900);
+				text-transform: uppercase;
+
+				span {
+					color: $clr-mandarin;
+				}
+	        }
+		}
+
+		.item {
+			display: grid;
+			grid-column: span 2;
+			grid-template-columns: subgrid;
+			position: relative;
+			padding-block: .5rem;
+			height: 35rem;
+
+			&:last-child {
+				height: 20rem;
+			}
+
+			.item__text {
+				place-self: center start;
+
+				&.it__left-p {
+					grid-column: 1;
+				}
+
+				&.it__right-p {
+					grid-column: 2;
+				}
+
+				p.item__text__small {
+					padding-bottom: 1rem;
+					font-size: clamp(1.25rem, 4vw, 1.5rem);
+					font-style: normal;
+					font-weight: $fw-700;
+					line-height: 1.625rem;
+					letter-spacing: .24rem;
+					text-transform: uppercase;
+					color: $clr-teal;
+				}
+
+				h2 {
+					font-family: $ff-isidora;
+					font-size: clamp(2rem, 4vw, $fs-900);
+					font-style: normal;
+					font-weight: $fw-700;
+					line-height: clamp(2rem, 4vw, $fs-900);
+					text-transform: uppercase;
+
+					span {
+						color: $clr-mandarin;
+					}
+				}
+
+				.item__text__info {
+					p {
+						padding-top: 1rem;
+						font-size: $fs-500;
+						font-style: normal;
+						font-weight: 400;
+						line-height: 1.5rem;
+					}
+				}
+			}
+
+			a.cta {
+				grid-column: span 2;
+				place-self: center;
+			}
+		}
+	}
+}

@@ -1,0 +1,211 @@
+/* Who we are (wwa) Hero */
+.hero {
+    
+    &.wwa {
+        height: 25rem;
+        margin-top: 3rem;
+        padding-block: unset;
+        @include bg-img('illustrations/whoweare.svg', right);
+        background-size: contain;
+    }
+}
+
+.wwa__team {
+    @include section-grid;
+    background-color: $clr-navy-charcoal;
+
+    .wwa__team__container {
+        @include section-container;
+
+        .wwa__team__container__row {
+            grid-column: span 2;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 3.75rem 0;
+            padding-bottom: 3.75rem;
+            border-bottom: .25rem dotted $clr-teal;
+
+            &:last-child {
+                gap: 1.25rem;
+                padding-top: 3.75rem;
+                border-bottom: unset;
+            }
+
+            h2 {
+                width: 100%;
+                font-size: clamp(1.25rem, 4vw, 1.5rem);
+                font-weight: $fw-700;
+                line-height: 1.625rem;
+                letter-spacing: .24rem;
+                text-transform: uppercase;
+                color: $clr-teal;
+            }
+
+            .wwa__team__member {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                gap: 1.1rem;
+                width: 17.5rem;
+                height: 14rem;
+
+                img {
+                    width: 6.25rem;
+                    height: 6.25rem;
+                    border-radius: 3.125rem 3.125rem 3.125rem 0;
+                }
+
+                h3 {
+                    font-family: $ff-isidora;
+                    font-size: clamp(1.75rem, 4vw, 2rem);
+                    font-weight: $fw-700;
+                    line-height: clamp(1.75rem, 4vw, 2rem);
+                    text-transform: uppercase;
+                }
+
+                p {
+                    font-family: $ff-isidora-alt;
+                    font-size: clamp($fs-500, 4vw, 1.375rem);
+                    font-weight: $fw-600;
+                    line-height: 1.625rem;
+                    color: $clr-mandarin;
+                }
+            }
+
+            .wwa__team__member__dev {
+                display: flex;
+                gap: 1rem;
+                width: 18rem;
+
+                svg {
+                    fill: $clr-teal;
+                }
+
+                h3 {
+                    font-family: $ff-isidora;
+                    font-size: clamp($fs-500, 4vw, 1.375rem);
+                    font-weight: $fw-700;
+                    line-height: 1.375rem;
+                    text-transform: uppercase;
+                    color: $clr-white;
+                }
+
+                p {
+                    font-family: $ff-isidora-alt;
+                    font-size: clamp(.875rem, 4vw, 1rem);
+                    font-weight: $fw-600;
+                    line-height: 1.25rem;
+                    color: $clr-teal;
+                }
+
+                &:last-child {
+                    svg {
+                        fill: $clr-green;
+                    }
+
+                    p {
+                        color: $clr-green;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.wwa__tech {
+    @include section-grid;
+    padding: 5rem 0 6.25rem 0;
+    background-color: $clr-white-teal;
+
+    .wwa__tech__container {
+        @include section-container;
+
+        .wwa__tech__container__row {
+            grid-column: span 2;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 2.75rem 0;
+
+            div {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+
+                h2 {
+                    width: 100%;
+                    font-size: clamp(1.25rem, 4vw, 1.5rem);
+                    font-weight: $fw-700;
+                    line-height: 1.625rem;
+                    letter-spacing: .24rem;
+                    text-transform: uppercase;
+                    color: $clr-teal;
+                }
+
+                p {
+                    width: 100%;
+                    font-family: $ff-isidora-alt;
+                    font-size: clamp(1.375rem, 4vw, $fs-600);
+                    font-weight: $fw-600;
+                    line-height: clamp(1.6875rem, 4vw, 2rem);
+                    color: $clr-navy-charcoal;
+                }
+            }
+
+            .tech__tags {
+                .tech__tag {
+                    padding: .75rem 1.5rem;
+                    font-family: $ff-isidora-alt;
+                    font-size: clamp(1.375rem, 4vw, $fs-600);
+                    font-weight: $fw-600;
+                    line-height: clamp(1.6875rem, 4vw, 2rem);
+                    background-color: $clr-mandarin;
+                }
+            }
+        }
+    }
+}
+
+.wwa__ca {
+    @include section-grid;
+    padding: 5rem 0 2.5rem 0;
+    background-color: $clr-navy-charcoal;
+
+    .wwa__ca__container {
+        @include section-container;
+
+        .wwa__ca__container__row {
+            grid-column: span 2;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 2.75rem 0;
+
+            h2.wwa__ca__title {
+                width: 100%;
+                font-size: clamp(1.25rem, 4vw, 1.5rem);
+                font-weight: $fw-700;
+                line-height: 1.625rem;
+                letter-spacing: .24rem;
+                text-transform: uppercase;
+                color: $clr-teal;
+            }
+
+            .wwa__ca__imgs {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 3.75rem 6.25rem;
+
+                img {
+                    width: 8.125rem;
+                    height: 3.375rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+[
+	{
+		"id": "clients",
+		"name": "Clinets",
+		"images": [
+			{
+				"name": "wye-valley-brewery",
+				"format": ".webp",
+				"url": "/_nuxt/assets/images/e-commerce-slider/"
+			},
+			{
+				"name": "westons",
+				"format": ".webp",
+				"url": "/_nuxt/assets/images/e-commerce-slider/"
+			},
+			{
+				"name": "chalkboards-uk",
+				"format": ".webp",
+				"url": "/_nuxt/assets/images/e-commerce-slider/"
+			},
+			{
+				"name": "freeman-pardoe",
+				"format": ".webp",
+				"url": "/_nuxt/assets/images/e-commerce-slider/"
+			}
+		]
+	},
+	{
+		"id": "solutions",
+		"name": "Solutions",
+		"images": [
+			{
+				"name": "braintree",
+				"format": ".webp",
+				"url": "/_nuxt/assets/images/e-commerce-slider/"
+			},
+			{
+				"name": "amazon",
+				"format": ".webp",
+				"url": "/_nuxt/assets/images/e-commerce-slider/"
+			},
+			{
+				"name": "cardsave",
+				"format": ".webp",
+				"url": "/_nuxt/assets/images/e-commerce-slider/"
+			},
+			{
+				"name": "paypal",
+				"format": ".webp",
+				"url": "/_nuxt/assets/images/e-commerce-slider/"
+			}
+		]
+	}
+]

@@ -1,0 +1,103 @@
+@media only screen and (min-width: $screen-l) {
+	.processes {
+		background-size: 55%, 55%, 25%, 45%;
+		background-position: 120% 15%, -20% 35%, 75% 58%, 0 80%;
+	}
+}
+
+@media only screen and (max-width: $laptop) {
+	.processes {
+		background-position: 290% 15%, -170% 35%, 85% 55%, -60% 75%;
+
+		.processes__container {
+			.item {
+				height: 25rem;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $tablet) {
+	.processes {
+		padding-bottom: 10rem;
+		background-position: 515% 9%, -90% 33%, 50% 54.5%, -515% 77%;
+		background-size: 95%, 95%, 50%, 95%;
+
+		.processes__container {
+			grid-column: 2;
+			grid-template-columns: 1fr;
+
+			.title {
+				grid-column: 1;
+				padding-bottom: 2rem;
+			}
+
+			.item {
+				grid-column: 1;
+				height: 40rem;
+
+				&:last-child {
+					height: auto;
+				}
+
+				.item__text {
+					place-self: end;
+					width: 100%;
+					text-align: center;
+
+					&.it__left-p, &.it__right-p {
+						grid-column: 1;
+					}
+				}
+
+				a.cta {
+					grid-column: 1;
+					margin-block: 3rem;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-l) {
+	.processes {
+		padding-bottom: 14rem;
+		background-position: 5rem 9.5%, -5rem 33%, center 51%, -10rem 71%;
+		background-size: 30rem, 30rem, 60%, 30rem;
+
+		.processes__container {
+			.item {
+				height: 35rem;
+
+				a.cta {
+					flex-direction: column;
+					width: auto;
+					height: auto;
+					padding: 1.25rem 1.5rem 1.875rem 1.5rem;
+
+					svg {
+						rotate: 90deg;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-m) {
+	.processes {
+		background-position: 5rem 10%, -9rem 33%, center 51%, -12rem 71%;
+
+		.processes__container {
+			.title {
+				margin-bottom: 2rem;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-s) {
+	.processes {
+		background-position: 3rem 10%, -11rem 33%, center 51.5%, -14rem 71%;
+	}
+}

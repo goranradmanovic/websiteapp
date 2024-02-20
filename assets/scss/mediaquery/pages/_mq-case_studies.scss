@@ -1,0 +1,255 @@
+@media only screen and (min-width: $screen-l) {
+	.hero.cs {
+		background-position-x: 70%;
+	}
+}
+
+@media only screen and (max-width: $laptop-l) {
+	.hero.cs {
+		background-position-x: 90%;
+	}
+
+	/* Case Stuides Blog */
+	.csb__hero {
+	    .csb__hero__container {
+	        .csb__hero__card {
+	            padding: 1.125rem 1.25rem 1.25rem 1.25rem;
+	        }
+	    }
+	}
+
+	.csb__content {
+	    .csb__content__container {
+	    	.csb__content__article {
+	    		padding-left: unset;
+	    	}
+	    }
+	}
+}
+
+@media only screen and (max-width: $laptop) {
+	.hero.cs {
+		background-size: 45%;
+	}
+
+	.csb__content {
+	    .csb__content__container {
+	        .csb__content__aside {
+	            .csb__content__aside__card {
+	            	padding: 1.125rem 1.25rem 1.25rem 1.25rem;
+	            }
+	        }
+	    }
+	}
+}
+
+@media only screen and (max-width: $tablet) {
+	.hero.cs {
+		padding-bottom: unset;
+
+		.hero__container {
+			grid-column: 2;
+
+			h1 {
+				span {
+					br {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	.cs__list {
+		padding-block: .5rem;
+		
+	    .cs__list__container  {
+	        grid-column: 2;
+
+	        .cs__cards {
+	        	gap: 1.5rem 0;
+
+	            .cs__card {
+	                width: 40%;
+
+	                .cs__card__img {
+	                	width: 100%;
+	                	height: 10rem;
+						object-fit: cover;
+	                }
+
+	               	.cs__card__tag {
+	                    padding: .375rem .75rem;
+	                }
+	            }
+	        }
+	    }
+	}
+
+	/* Case Stuides Blog */
+	.hero.csb {
+	    padding-block: 2rem;
+
+	    .hero__container {
+	        grid-column: 2;
+
+			.csb__testimonials {
+				grid-column: span 2;
+				flex-direction: column;
+				align-items: center;
+				gap: 1rem 0;
+
+				.card__content {
+					text-align: center;
+				}
+			}
+	    }
+	}
+
+	.csb__hero {
+	    .csb__hero__container {
+	    	grid-column: 2;
+	    	grid-template-columns: 1fr;
+
+	        .csb__hero__card {
+	            width: 100%;
+	        }
+	    }
+	}
+
+	.csb__content {
+	    .csb__content__container {
+	    	grid-column: 2;
+
+	        .csb__content__aside {
+	            .csb__content__aside__card {
+	            	top: calc($nav-height + 3.25rem);
+	            }
+	        }
+	    }
+	}
+}
+
+@media only screen and (max-width: $mobile-l) {
+	.hero.cs {
+		height: 30rem;
+		background-position-x: center;
+		background-position-y: 10%;
+		background-size: 90%;
+
+		.hero__container {
+			place-self: end;
+			grid-template-columns: 1fr;
+
+			.hero__text {
+				padding-right: unset;
+				text-align: center;
+			}
+		}
+	}
+
+	.cs__list {
+		padding: unset;
+
+	    .cs__list__container  {
+	    	grid-template-columns: 1fr;
+
+	        .cs__cards {
+	        	grid-column: 1;
+
+	        	.cs__card {
+	        		width: 100%;
+	        	}
+	        }
+	    }
+	}
+
+	/* Case Stuides Blog */
+	.csb__hero {
+		height: 15rem;
+
+	    .csb__hero__container {
+	    	height: 15rem;
+
+	        .csb__hero__card {
+	            transform: translate(0, 40%);
+	        }
+	    }
+	}
+
+	.csb__content {
+		padding-top: 23rem;
+
+	    .csb__content__container {
+	    	grid-column: 2;
+	    	grid-template-columns: 1fr;
+
+			.csb__content__article {
+				grid-column: 1;
+				padding-left: unset;
+			}
+
+	        .csb__content__aside {
+	        	grid-column: 1;
+
+	            .csb__content__aside__card {
+	            	position: static;
+	            	width: 100%;
+	            	margin-top: 3rem;
+	            	margin-left: unset;
+	            }
+	        }
+	    }
+	}
+
+	.csb__footer {
+	    padding-block: unset;
+
+	    .csb__footer__container {
+	    	grid-column: 2;
+
+	        .csb__footer__container__items {
+	        	flex-direction: column;
+	            flex-wrap: unset;
+	            justify-content: space-between;
+	            align-items: center;
+	            gap: 1.5rem 0;
+
+	            .csb__footer__item {
+	                flex-direction: row;
+	                justify-content: space-between;
+	                align-items: center;
+	                gap: 0 1rem;
+	                width: 100%;
+	                height: auto;
+
+	                .csb__footer__item__icon {
+	                    width: 3.25rem;
+	                    height: 3.25rem;
+
+						img {
+							width: 1.5rem;
+							height: 1.5rem;
+						}
+                	}
+
+	                h3 {
+	                	text-align: left;
+	                }
+	            }
+	        }
+	    }
+	}
+}
+
+@media only screen and (max-width: $mobile-m) {
+	.csb__content {
+		padding-top: 30rem;
+	}
+}
+
+@media only screen and (max-width: $mobile-s) {
+	.csb__content {
+		padding-top: 33rem;
+	}
+}

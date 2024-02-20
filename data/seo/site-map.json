@@ -1,0 +1,242 @@
+[
+	{
+		"id": "default",
+		"meta": {
+			"category": "IT developemnt",
+			"coverage": "Worldwide",
+			"reply-to": "clinic@tsd.digital",
+			"owner": "TSD Company",
+			"directory": "submission",
+			"target": "all",
+			"subject": "Web and app development",
+			"subtitle": "This is TSD website",
+			"pagename": "TSD",
+			"date": "Feb. 16, 2024",
+			"search_date": "2024-02-16",
+			"dc.title": "TSD Website",
+			"dc.creator": "TSD Team",
+			"dc.subject": "Web Development, IT, CMS, Web App",
+			"medium": "website",
+			"syndication-source": "https://tsd.digital/",
+			"original-source": "https://tsd.digital/",
+			"verify-v1": "dV1r/ZJJdDEI++fKJ6iDEl6o+TMNtSu0kv18ONeqM0I=",
+			"y_key": "1e39c508e0d87750",
+			"pageKey": "guest-home",
+
+			"ogType": "website",
+			"ogImageWidth": "300",
+			"ogImageHeight": "300",
+			"ogDescription": "This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"ogImage": "https://example.com/image.png",
+			"ogEmail": "clinic@tsd.digital",
+			"ogPhone_number": "0121-31-45-374",
+			"ogFax_number": "",
+			"ogLatitude": "51.95451",
+			"ogLongitude": "2.56891",
+			"ogStreetAddress": "Ross-on-Wye HR9 7QU UK",
+			"ogLocality": "Herefordshire",
+			"ogRegion": "UK",
+			"ogPostalCode": "",
+			"ogCountryName": "England",
+
+			"fb:page_id": "33322233323",
+			"application-name": "TSD",
+
+			"twitterCard": "summary_large_image",
+			"twitterCreator": "@username",
+			"twitterSite": "@username",
+			"twitterTitle": "TSD",
+			"twitterDescription": "This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"twitterImage": "URL of the image",
+			"twitterImageAlt": "Image alt text",
+			"twitterUrl": "URL of the page",
+			"twitterSiteName": "TSD",
+
+			"appleMobileWebAppTitle": "TSD",
+			"appleMobileWebAppCapable": "yes",
+			"appleTouchFullscreen": "yes",
+			"appleMobileWebAppStatusBarStyle": "#1F3049",
+			"formatDetection": "telephone=no",
+
+			"microid": "mailto+http:sha1:e6058ed7fca4a1921cq91d7f1f3b8736cd3cc1g7",
+			"readability-verification": "E7aEHvVQpWc8VHDqKvaB2Z58hek2EAv2HuLuegv7",
+			"google-site-verification": "4SMIedO1X4IkYrYuhEC2VuovdQM36Xxb0btUjElqQyg",
+			"norton-safeweb-site-verification": "tz8iotmk-pkhui406y41y5bfmfxdwmaa4a-yc0hm6r0fga7s6j0j27qmgqkmc7oovihzghbzhbdjk-uiyrz438nxsjdbj3fggwgl8oq2nf4ko8gi7j4z7t78kegbidl4",
+			"icbm": "51.95451, 2.56891",
+			"geo.region": "UK-LN",
+			"geo.placename": "London",
+			"geo.position": "51.95451, 2.56891"
+		}
+	},
+	{
+		"id": "home",
+		"meta": {
+			"title": "",
+			"keywords": "Home, page, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Home page. This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/"
+		}
+	},
+	{
+		"id": "what-we-do",
+		"meta": {
+			"title": "What We Do",
+			"keywords": "What we do, Projects, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "What We Do This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/what-we-do"
+		}
+	},
+	{
+		"id": "who-we-are",
+		"meta": {
+			"title": "Who We Are",
+			"keywords": "Who we are, Development, Team, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Who We Are This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/who-we-are"
+		}
+	},
+	{
+		"id": "e-commerce",
+		"meta": {
+			"title": "E Commerce",
+			"keywords": "Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "E Commerce This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/e-commerce"
+		}
+	},
+	{
+		"id": "blog",
+		"meta": {
+			"title": "Blog",
+			"keywords": "Blog, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Blog This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/blog"
+		}
+	},
+	{
+		"id": "contact-us",
+		"meta": {
+			"title": "Contact Us",
+			"keywords": "Contact Us, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Contact Us This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/contact-us"
+		}
+	},
+	{
+		"id": "portfolio",
+		"meta": {
+			"title": "Portfolio",
+			"keywords": "Portfolio, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Portfolio This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/portfolio"
+		}
+	},
+	{
+		"id": "case-studies",
+		"meta": {
+			"title": "Case Studies",
+			"keywords": "Case, Studies, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/case-studies"
+		}
+	},
+	{
+		"id": "safelives",
+		"meta": {
+			"title": "Safelives",
+			"keywords": "Safelives, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Safelives This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/case-studies/articles/safelives"
+		}
+	},
+	{
+		"id": "etap",
+		"meta": {
+			"title": "ETAP",
+			"keywords": "ETAP, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "ETAP This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/case-studies/articles/etap"
+		}
+	},
+	{
+		"id": "westons",
+		"meta": {
+			"title": "Westons",
+			"keywords": "Westons, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Westons This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/case-studies/articles/westons"
+		}
+	},
+	{
+		"id": "redspeed",
+		"meta": {
+			"title": "Redspeed",
+			"keywords": "Redspeed, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Redspeed This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/case-studies/articles/redspeed"
+		}
+	},
+	{
+		"id": "delineate",
+		"meta": {
+			"title": "Delineate",
+			"keywords": "Delineate, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Delineate This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/case-studies/articles/delineate"
+		}
+	},
+	{
+		"id": "brightwells",
+		"meta": {
+			"title": "Brightwells",
+			"keywords": "Brightwells, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Brightwells This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/case-studies/articles/brightwells"
+		}
+	},
+	{
+		"id": "wye-valley-brewery",
+		"meta": {
+			"title": "Wye Valley Brewery",
+			"keywords": "Wye Valley Brewery, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Wye Valley Brewery This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/case-studies/articles/way-valley-brewery"
+		}
+	},
+	{
+		"id": "joe-davies",
+		"meta": {
+			"title": "Joe Davies",
+			"keywords": "Joe Davies, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Joe Davies This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/case-studies/articles/joe-davies"
+		}
+	},
+	{
+		"id": "british-library",
+		"meta": {
+			"title": "British Library",
+			"keywords": "British Library, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "British Library This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/case-studies/articles/british-library"
+		}
+	},
+	{
+		"id": "schlumberger",
+		"meta": {
+			"title": "Schlumberger",
+			"keywords": "Schlumberger, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Schlumberger This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/case-studies/articles/schlumberger"
+		}
+	},
+	{
+		"id": "alphastream",
+		"meta": {
+			"title": "Alphastream",
+			"keywords": "Alphastream, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Alphastream This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://tsd.digital/case-studies/articles/alphastream"
+		}
+	}
+]

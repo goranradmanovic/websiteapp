@@ -1,0 +1,22 @@
+@mixin section-grid {
+	display: grid;
+    grid-column: span 4;
+    grid-template-columns: subgrid;
+};
+
+@mixin bg-img($img, $pos: center) {
+    background: {
+        image: url("../images/#{$img}");
+        position: $pos;
+        repeat: no-repeat;
+    }
+};
+
+@mixin section-container {
+    grid-column: 2 / 4;
+    place-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 90rem;
+    width: 100%;
+}

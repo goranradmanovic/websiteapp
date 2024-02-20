@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"classModifier": "",
+		"content": "In all areas from the planning, specification, through to the programming and implementation - TSD are world-class",
+		"author": {
+			"name": "Paul Hooker",
+			"title": "CEO",
+			"project": "Joe Davies (Customer since 2006)"
+		}
+	},
+	{
+		"id": 2,
+		"classModifier": "p-absolute",
+		"content": "It’s been a pleasure - TSD has been more than just a service provider; they've been a valuable partner in helping us serve our community better",
+		"author": {
+			"name": "Martha Tomlinson",
+			"title": "",
+			"project": "SafeLives (Registered UK Charity #1106864)"
+		}
+	},
+	{	
+		"id": 3,
+		"classModifier": "p-absolute",
+		"content": "The TSD team were a pleasure to work with. We would recommend working with them for their talent, creativity and support , but also their great approach to their clients.",
+		"author": {
+			"name": "Web Manager",
+			"title": "",
+			"project": "Newham College of Further Education"
+		}
+	}
+]

@@ -1,0 +1,146 @@
+@media only screen and (max-width: $laptop) {
+	.process {
+
+		.process__container {
+			.item {
+				.item__title {
+					width: 100%;
+				}
+
+				.item__content {
+					width: 100%;
+					height: auto;
+					padding-bottom: 1rem;
+
+					h2 {
+						&:before {
+							height: 12rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $tablet) {
+	.process {
+		padding-top: 8rem;
+
+		/* PROCESS SECOND SECTION WITH WHITE BACKGROUND COLOR */
+		&.second__section {
+			padding-top: 3rem;
+			padding-bottom: 10rem;
+		}
+		/******************************************************/
+
+		.process__container {
+			grid-column: 2;
+			grid-template-columns: 1fr;
+
+			.title {
+				grid-column: 1;
+				padding-bottom: 3rem;
+
+				h2 {
+					br {
+						display: none;
+					}
+				}
+			}
+
+			.item {
+				grid-column: 1;
+				grid-template-columns: 1fr;
+				gap: unset;
+				padding-bottom: 1rem;
+
+				.item__title {
+					grid-column: 1;
+					align-items: flex-start;
+					height: auto;
+					text-align: unset;
+
+					& br:nth-child(2) {
+						display: none;
+					}
+
+					h2.item__title__text {
+						padding-block: 1rem;
+					}
+				}
+
+				.item__content {
+					grid-column: 1;
+					height: auto;
+					padding-left: 3.5rem;
+					padding-bottom: 1rem;
+
+					h2 {
+						&:before {
+							left: calc(-2.2rem - 2px);
+							height: 9rem;
+						}
+
+						& .item__content__icon {
+							left: -3.5rem;
+							width: 2.8rem;
+							height: 2.8rem;
+
+							& img {
+								transform: scale(.6);
+							}
+						}
+					}
+
+					p {
+						padding-top: .4rem;
+					}
+
+					&.last {
+						height: 15rem;
+
+						h2 {
+							&:before {
+								height: 15rem;
+							}
+
+							& .item__content__icon.s-icon {
+								left: -3.2rem;
+							}
+						}
+					}
+				}
+
+				&:last-child {
+					.item__title {
+						h2 {
+							br {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-m) {
+	.process {
+		/* PROCESS SECOND SECTION WITH WHITE BACKGROUND COLOR */
+		&.second__section {
+			padding-bottom: 18rem;
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-s) {
+	.process {
+		.process__container {
+			.item.first-section {
+				padding-bottom: 7rem;
+			}
+		}
+	}
+}

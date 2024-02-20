@@ -1,0 +1,70 @@
+@media only screen and (min-width: $screen-l) {
+	.hero.hh {
+		background-position-x: 85rem;
+	}
+}
+
+@media only screen and (max-width: $laptop-l) {
+	.hero.hh {
+		background-position-x: 45rem;
+	}
+}
+
+@media only screen and (max-width: $laptop) {
+	.hero.hh {
+		margin-block: 2rem;
+		background-position-x: 35rem;
+	}
+}
+
+@media only screen and (max-width: $tablet) {
+	.hero.hh {
+		grid-column: span 4;
+		background-position-x: 25rem;
+
+		.hero__container {
+			grid-column: 2 / 3;
+
+			.hero__text {
+				grid-column: 1;
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-l) {
+	.hero.hh {
+		background-position-y: 85%;
+		background-position-x: 4rem;
+		background-size: 140%;
+
+		.hero__container {
+			grid-column: 2;
+			grid-template-columns: 1fr;
+			place-self: start;
+
+			.hero__text {
+				padding-right: unset;
+				text-align: center;
+
+				.hero__text__cta {
+					place-self: center;
+					transform: translateY(12rem);
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-s) {
+	.hero.hh {
+		.hero__container {
+			.hero__text {
+				.hero__text__cta {
+					transform: translateY(10rem);
+				}
+			}
+		}
+	}
+}

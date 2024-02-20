@@ -1,0 +1,174 @@
+.footer {
+    display: grid;
+    padding-top: 5rem;
+    background-color: $clr-dark-navy;
+
+    .footer__container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        place-self: center;
+        gap: .5rem;
+        max-width: 90rem;
+        width: 100%;
+        padding-bottom: 5rem;
+
+        h3, h2 {
+            font-weight: $fw-700;
+            font-style: normal;
+            text-transform: uppercase;
+            
+        }
+
+        h3 {
+            font-size: clamp(1.25rem, 4vw, $fs-400);
+            line-height: 1.375rem;
+            letter-spacing: .15rem;
+            color: $clr-teal;
+        }
+
+        h2 {
+            font-size: clamp(1.5rem, 4vw, 1.25rem);
+            line-height: 1.625rem;
+            letter-spacing: .24rem;
+        }
+
+        a {
+            font-size: $fs-500;
+            font-weight: $fw-700;
+            font-style: normal;
+            line-height: 1.5rem;
+            color: $clr-white;
+        }
+
+        .footer__info {
+            img {
+                width: 10.25rem;
+                height: 4.25rem;
+                margin-bottom: 2rem;
+            }
+
+            p {
+                font-size: clamp($fs-500, 4vw, $fs-400);
+                font-style: normal;
+                font-weight: $fw-400;
+                line-height: 1.5rem;
+            }
+
+            .footer__info__box {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .footer__info__box div:last-child {
+                font-size: clamp($fs-500, 4vw, $fs-400);
+                font-style: normal;
+                font-weight: $fw-400;
+                line-height: 1.5rem;
+            }
+            
+            .footer__info__box__contact, .footer__info__box__reg, span {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+
+            span {
+                gap: .4rem;
+                margin: unset;
+            }
+
+            .footer__info__box__contact {
+                span {
+                    a {
+                        font-size: clamp($fs-500, 4vw, $fs-400);
+                        font-style: normal;
+                        font-weight: $fw-400;
+                        line-height: 1.5rem;
+                    }
+                }
+            }
+
+            .footer__info__box__reg {
+                span {
+                    font-size: clamp($fs-500, 4vw, $fs-400);
+                    font-style: normal;
+                    font-weight: $fw-400;
+                    line-height: 1.5rem;
+                }
+            }
+        }
+
+        .footer__menu {
+            place-self: start center;
+
+            nav {
+                margin-top: 1.25rem;
+
+                li {
+                    margin-bottom: 1rem;
+
+                    a {
+                        font-size: $fs-500;
+                        font-weight: $fw-600;
+                        transition: color .4s ease-in-out;
+
+                        &:hover {
+                            color: $clr-green;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer__article {
+            width: 18rem;
+
+            h2 {
+                margin-block: 1.25rem;
+            }
+
+            a.footer__article__cta {
+                width: max-content;
+                transition: all .4s ease-in-out;
+
+                svg {
+                    fill: $clr-green;
+                }
+            }
+
+            a.footer__article__cta:hover {
+                border-color: $clr-mandarin;
+                background-color: rgba($clr-mandarin, 30%);
+
+                & svg {
+                    fill: $clr-mandarin;
+                }
+            }
+        }
+
+        .footer__products {
+            h3 {
+                width: 10rem;
+            }
+
+            div {
+                margin-top: 1.25rem;
+
+                img {
+                    width: 10rem;
+                    height: 3rem;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+
+
+    .footer__strip {
+        img {
+            width: 100%;
+            max-height: 2.5rem;
+        }
+    }
+}

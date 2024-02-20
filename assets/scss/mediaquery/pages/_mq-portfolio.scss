@@ -1,0 +1,90 @@
+@media only screen and (max-width: $tablet) {
+	.portfolio__container {
+		grid-column: 2;
+		grid-template-columns: 1fr;
+
+		.portfolio__title, .portfolio__images {
+			grid-column: 1;
+			align-items: center;
+		}
+
+		.portfolio__images {
+			padding-top: 2rem;
+		}
+
+		.portfolio__tech {
+			grid-column: 1;
+			flex-direction: column;
+
+			.portfolio__tech__card, .portfolio__tech__tags {
+				width: 100%;
+				margin-bottom: 1rem;
+			}
+
+			.portfolio__tech__tags {
+				justify-content: center;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-l) {
+	.portfolio__container {
+		.portfolio__images {
+			display: none;
+		}
+
+		.portfolio__content {
+			.portfolio__content__cta {
+				width: 100%;
+				text-transform: unset;
+			}
+
+			.portfolio__content__slider {
+				display: block;
+
+				.glider {
+					overflow: hidden;
+					
+					.glider-track {
+						gap: 0 2.25rem;
+					}
+
+					img {
+						width: 100% !important;
+					}
+				}
+			}
+		}
+
+		.portfolio__tech {
+			.portfolio__tech__card {
+				padding: 1.125rem 1.25rem 1.25rem 1.25rem;
+			}
+
+			.portfolio__tech__tag {
+				padding: .375rem .875rem;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-m) {
+	.portfolio__container {
+		.portfolio__content {
+			.portfolio__content__slider {
+				max-width: 21rem;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: $mobile-s) {
+	.portfolio__container {
+		.portfolio__content {
+			.portfolio__content__slider {
+				max-width: 18rem;
+			}
+		}
+	}
+}

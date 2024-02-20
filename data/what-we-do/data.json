@@ -1,0 +1,273 @@
+{
+    "sectors": [
+        {
+            "name": "Sector One",
+            "active": false,
+            "type": "sector"
+        },
+        {
+            "name": "Sector Two",
+            "active": false,
+            "type": "sector"
+        },
+        {
+            "name": "Sector Three",
+            "active": false,
+            "type": "sector"
+        },
+        {
+            "name": "Sector Four",
+            "active": false,
+            "type": "sector"
+        }
+    ],
+    "technologies": [
+        {
+            "name": "C#",
+            "active": false,
+            "type": "tech"
+        },
+        {
+            "name": ".Net",
+            "active": false,
+            "type": "tech"
+        },
+        {
+            "name": "Node.js",
+            "active": false,
+            "type": "tech"
+        },
+        {
+            "name": "React",
+            "active": false,
+            "type": "tech"
+        },
+        {
+            "name": "Angular",
+            "active": false,
+            "type": "tech"
+        },
+        {
+            "name": "VueJS",
+            "active": false,
+            "type": "tech"
+        },
+        {
+            "name": "HTML",
+            "active": false,
+            "type": "tech"
+        },
+        {
+            "name": "Blazor",
+            "active": false,
+            "type": "tech"
+        },
+        {
+            "name": "IIS",
+            "active": false,
+            "type": "tech"
+        },
+        {
+            "name": "Azure",
+            "active": false,
+            "type": "tech"
+        },
+        {
+            "name": "SQLServer",
+            "active": false,
+            "type": "tech"
+        },
+        {
+            "name": "SignalR",
+            "active": false,
+            "type": "tech"
+        },
+        {
+            "name": "Ably",
+            "active": false,
+            "type": "tech"
+        }
+    ],
+    "projects": [
+        {
+            "id": "wye-valley-brewery-redesign",
+            "product": "Wye Valley Brewery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "cart",
+            "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
+            "sectors": ["Ecommerce", "Food & Beverage"],
+            "year": 2024,
+            "displayOnSite": true
+        },
+        {
+            "id": "bond-jewllery-redesign",
+            "product": "Bond Jewellery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "basket",
+            "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass", "VueJS"],
+            "sectors": ["Ecommerce", "Retail"],
+            "year": 2024,
+            "displayOnSite": true
+        },
+        {
+            "id": "wye-valley-brewery-redesign",
+            "product": "Wye Valley Brewery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "basket",
+            "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
+            "sectors": ["Ecommerce", "Food & Beverage"],
+            "year": 2023,
+            "displayOnSite": true
+        },
+        {
+            "id": "bond-jewllery-redesign",
+            "product": "Bond Jewellery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "cart",
+            "technologies": ["C#", ".Net", "HTML", "AngularJs", "VueJS"],
+            "sectors": ["Ecommerce", "Retail"],
+            "year": 2023,
+            "displayOnSite": true
+        },
+        {
+            "id": "wye-valley-brewery-redesign",
+            "product": "Wye Valley Brewery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "basket",
+            "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
+            "sectors": ["Ecommerce", "Food & Beverage"],
+            "year": 2023,
+            "displayOnSite": true
+        },
+        {
+            "id": "bond-jewllery-redesign",
+            "product": "Bond Jewellery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "cart",
+            "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
+            "sectors": ["Ecommerce", "Retail"],
+            "year": 2023,
+            "displayOnSite": true
+        },
+        {
+            "id": "wye-valley-brewery-redesign",
+            "product": "Wye Valley Brewery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "basket",
+            "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
+            "sectors": ["Ecommerce", "Food & Beverage"],
+            "year": 2022,
+            "displayOnSite": true
+        },
+        {
+            "id": "bond-jewllery-redesign",
+            "product": "Bond Jewellery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "cart",
+            "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
+            "sectors": ["Ecommerce", "Retail"],
+            "year": 2022,
+            "displayOnSite": true
+        },
+        {
+            "id": "wye-valley-brewery-redesign",
+            "product": "Wye Valley Brewery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "cart",
+            "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
+            "sectors": ["Ecommerce", "Food & Beverage"],
+            "year": 2022,
+            "displayOnSite": true
+        },
+        {
+            "id": "bond-jewllery-redesign",
+            "product": "Bond Jewellery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "basket",
+            "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
+            "sectors": ["Ecommerce", "Retail"],
+            "year": 2022,
+            "displayOnSite": true
+        },
+        {
+            "id": "wye-valley-brewery-redesign",
+            "product": "Wye Valley Brewery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "cart",
+            "technologies": ["C#", ".Net", "HTML", "SQL Server", "VueJS"],
+            "sectors": ["Ecommerce", "Food & Beverage"],
+            "year": 2022,
+            "displayOnSite": true
+        },
+        {
+            "id": "bond-jewllery-redesign",
+            "product": "Bond Jewellery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "basket",
+            "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
+            "sectors": ["Ecommerce", "Retail"],
+            "year": 2022,
+            "displayOnSite": true
+        },
+        {
+            "id": "wye-valley-brewery-redesign",
+            "product": "Wye Valley Brewery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "cart",
+            "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
+            "sectors": ["Ecommerce", "Food & Beverage"],
+            "year": 2022,
+            "displayOnSite": true
+        },
+        {
+            "id": "bond-jewllery-redesign",
+            "product": "Bond Jewellery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "basket",
+            "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
+            "sectors": ["Ecommerce", "Retail"],
+            "year": 2022,
+            "displayOnSite": true
+        },
+        {
+            "id": "wye-valley-brewery-redesign",
+            "product": "Wye Valley Brewery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "cart",
+            "technologies": ["C#", ".Net", "HTML", "VueJS", "Sass"],
+            "sectors": ["Ecommerce", "Food & Beverage"],
+            "year": 2022,
+            "displayOnSite": true
+        },
+        {
+            "id": "bond-jewllery-redesign",
+            "product": "Bond Jewellery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "basket",
+            "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
+            "sectors": ["Ecommerce", "Retail"],
+            "year": 2022,
+            "displayOnSite": true
+        },
+        {
+            "id": "wye-valley-brewery-redesign",
+            "product": "Wye Valley Brewery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "cart",
+            "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
+            "sectors": ["Ecommerce", "Food & Beverage"],
+            "year": 2022,
+            "displayOnSite": true
+        },
+        {
+            "id": "bond-jewllery-redesign",
+            "product": "Bond Jewellery",
+            "url": "https://www.wyevalleybrewery.co.uk/",
+            "icon": "basket",
+            "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
+            "sectors": ["Ecommerce", "Retail"],
+            "year": 2022,
+            "displayOnSite": true
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+@media only screen and (max-width: $tablet) {
+	.testimonials {
+		.testimonials__container {
+			grid-column: 2 / 3;
+
+			.testimonials__card {
+				padding: 2.375rem 0;
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 1.25rem;
+
+				.card__quote__icon {
+					width: 4.125rem;
+
+					&.top {
+						align-self: center;
+					}
+
+					&.bottom {
+						display: none;
+					}
+				}
+
+				.card__content {
+					p {
+						padding-inline: 1.5rem;
+					}
+				}
+			}
+		}
+	}
+}

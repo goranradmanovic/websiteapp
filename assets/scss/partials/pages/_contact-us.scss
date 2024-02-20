@@ -1,0 +1,159 @@
+/* Contact Us (cu) Hero */
+.hero {
+    &.cu {
+        height: 25rem;
+        margin-top: 3rem;
+        padding-bottom: unset;
+        @include bg-img('illustrations/contact.svg');
+        background-position-x: 70%;
+        background-position-y: bottom;
+        background-size: contain;
+    }
+}
+
+.cu__content {
+    @include section-grid;
+
+    .cu__content__container {
+        @include section-container;
+        grid-template-columns: 1fr .5fr;
+        padding-bottom: 4rem;
+
+        .cu__content__form {
+            grid-column: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem 0;
+            width: 42rem;
+
+            .cu__content__form__group {
+                display: flex;
+                flex-direction: column;
+                gap: .75rem 0;
+
+                .cu__content__form__res__success, .cu__content__form__res__error {
+                    display: none;
+                    padding: 1.25rem;
+                    opacity: 0;
+                    visibility: hidden;
+                    font-size: clamp(1.25em, 4vw, 1.5rem);
+                    font-weight: $fw-600;
+                    line-height: 1.625rem;
+                    letter-spacing: .1rem;
+                    text-transform: uppercase;
+                    text-align: center;
+                    transition: all .4s ease-in-out;
+                    
+                    &.show {
+                        opacity: 1;
+                        visibility: unset;
+                        display: block;
+                    }
+                }
+
+                .cu__content__form__res__success {
+                    background-color: $clr-green;
+                }
+
+                .cu__content__form__res__error {
+                    background-color: $clr-light-cherry;
+                }
+
+                label {
+                    font-size: 1rem;
+                    font-weight: $fw-700;
+                    line-height: 1rem;
+                    text-transform: uppercase;
+                    color: $clr-mandarin;
+                }
+
+                .cu__content__form__input, .cu__content__form__textarea {
+                    min-height: 2.75rem;
+                    border: unset;
+                    outline: unset;
+                    padding-block: .625rem;
+                    border-bottom: 3px solid rgba($clr-teal, .2);
+                    font-size: 1.125rem;
+                    font-weight: $fw-400;
+                    line-height: 1.5rem;
+                    color: $clr-white;
+                    background-color: transparent;
+                    transition: border-color .4s ease-in-out;
+
+                    &::placeholder {
+                        color: $clr-white;
+                    }
+
+                    &:hover {
+                        border-color: $clr-green;
+                    }
+                }
+
+                .cu__content__form__textarea {
+                    padding-block: unset;
+                    resize: unset;
+                    height: 11.6875rem;
+                }
+
+                .cu__content__form__error {
+                    font-size: 1.125rem;
+                    font-weight: $fw-400;
+                    line-height: 1.5rem;
+                    color: $clr-light-cherry;
+                }
+
+                .cu__content__form__submit {
+                    width: max-content;
+                    height: 4.25rem;
+                    outline: unset;
+                    border: unset;
+                    padding: 0 2.125rem;
+                    font-size: 1.5rem;
+                    font-weight: $fw-600;
+                    line-height: 1.5rem;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    transition: background-color .4s ease-in-out;
+                    color: $clr-white;
+
+                    &:hover {
+                        background-color: $clr-mandarin;
+                    }
+                }
+            }
+        }
+
+        .cu__content__info {
+            grid-column: 2;
+            place-self: center;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem 0;
+
+            p {
+                font-family: $ff-isidora-alt;
+                font-size: clamp(1.375rem, 4vw, $fs-600);
+                font-weight: $fw-600;
+                line-height: clamp($fs-600, 4vw, 2rem);
+            }
+
+            .cu__content__info__box {
+                display: flex;
+                flex-direction: column;
+                gap: .75rem 0;
+                font-size: clamp($fs-400, 4vw, 1.125rem);
+                font-weight: $fw-400;
+                line-height: clamp(1.375rem, 4vw, 1.5rem);
+
+                div {
+                    display: flex;
+
+                    a {
+                        padding-left: .5rem;
+                        color: $clr-white;
+                    }
+                }
+            }
+        }
+    }
+}

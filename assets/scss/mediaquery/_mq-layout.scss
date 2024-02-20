@@ -1,0 +1,11 @@
+@media only screen and (max-width: $laptop-l) {
+	.cta {
+		max-width: 80rem;
+	}
+}
+
+@media only screen and (max-width: $tablet) {
+	.wrapper {
+		grid-template-columns: 1rem 1fr 1rem;
+	}
+}
