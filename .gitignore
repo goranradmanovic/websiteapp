@@ -1,0 +1,33 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore all files inside assets/css
+assets/css/*
+
+# Ignore yarn lock files
+yarn.lock
+
+# Ignore npm lock files
+package-lock.json
+
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
