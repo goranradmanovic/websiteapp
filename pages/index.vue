@@ -7,7 +7,7 @@
                     <h1>
                         <span class="hero__text--gold">ROI-Driven</span> <span class="hero__text--teal">Software Solutions</span>
                     </h1>
-                    <p>We go beyond coding. We provide tailored solutions which generate more than they cost. Because that’s how it should be.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <NuxtLink to="/contact-us" class="btn btn-rounded btn-bg-green hero__text__cta">Get in Touch</NuxtLink>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                         <h2>You’re kept <span>in <br /> the loop</span></h2>
                         <div class="item__text__info">
                             <p>Our strict "No Surprises" policy means you'll never have to chase us up.</p>
-                            <p>You get a dedicated TSD contact, frequent updates, and open channels of communication.</p>
+                            <p>You get a dedicated IntelliQ contact, frequent updates, and open channels of communication.</p>
                         </div>
                     </div>
                 </div>
@@ -127,27 +127,27 @@
                     <div class="item">
                         <img src="~assets/images/deliverables/e-commerce.svg" alt="E-commerce Icon" class="item__img" />
                         <div class="item__text">
-                            <h3 class="item__text__tag">Etap</h3>
+                            <h3 class="item__text__tag">Purchify</h3>
                             <h2>Complete <br /> migration <br /> <span class="item__text--teal">Zero disruption</span></h2>
-                            <p>ETAP's e-commerce platform was approaching end-of-life. So, we designed, developed & implemented new capabilities before seamlessly transitioning the business to their new, future-proof platform.</p>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             <NuxtLink to="#" target="_blank" class="btn btn-rounded btn-bg-green item__text__cta">Read full case study</NuxtLink>
                         </div>
                     </div>
                     <div class="item">
                         <img src="~assets/images/deliverables/team.svg" alt="Team Icon" class="item__img" />
                         <div class="item__text">
-                            <h3 class="item__text__tag">SafeLives</h3>
+                            <h3 class="item__text__tag">Saleify</h3>
                             <h2>New Platform <br /> <span class="item__text--teal">Greater Impact</span></h2>
-                            <p>After winning the tender, we rebuilt the reporting system that sustains the organisation's crucial work. The modernised platform eliminated dozens of manual processes, simplified the user experience, and enabled them to help more people in need, more effectively.</p>
+                            <p>Porttitor leo a diam sollicitudin. Risus quis varius quam quisque id diam vel quam elementum. Eget egestas purus viverra accumsan in nisl.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magna ac placerat vestibulum lectus mauris ultrices eros in. Porttitor massa id neque aliquam vestibulum morbi blandit cursus risus.</p>
                             <NuxtLink to="/case-studies/safelives" class="btn btn-rounded btn-bg-green item__text__cta">Read full case study</NuxtLink>
                         </div>
                     </div>
                     <div class="item">
                         <img src="~assets/images/deliverables/audit.svg" alt="Audit Icon" class="item__img" />
                         <div class="item__text">
-                            <h3 class="item__text__tag">RedSpeed</h3>
+                            <h3 class="item__text__tag">Ecomart</h3>
                             <h2>Complete <br /> migration <br /> <span class="item__text--teal">Zero disruption</span></h2>
-                            <p>Conducting a detailed technical audit enabled us to pinpoint the inefficiencies of Redspeed's existing processes. With those insights, we designed and implemented a tailored DevOps process. This boosted the engineering team's speed & output, enabled visibility into their workflows, and increased leadership's confidence in the team's efforts.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ultrices sagittis orci a scelerisque purus semper eget. Neque viverra justo nec ultrices dui.Risus quis varius quam quisque id diam vel quam elementum. Eget egestas purus viverra accumsan in nisl.</p>
                             <NuxtLink to="#" class="btn btn-rounded btn-bg-green item__text__cta">Read full case study</NuxtLink>
                         </div>
                     </div>
@@ -394,7 +394,7 @@
                 <div class="hero__bottom__text">
                     <h2>
                         <span>Make your project pay for itself</span>
-                        <span>TSD Difference</span>
+                        <span>IntelliQ Difference</span>
                     </h2>
                     <NuxtLink to="/contact-us" class="btn btn-rounded btn-bg-green hero__bottom__text__cta">Get in Touch</NuxtLink>
                 </div>

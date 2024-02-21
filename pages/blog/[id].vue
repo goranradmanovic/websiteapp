@@ -25,35 +25,35 @@
 									</defs>
 								</svg>
 								<div>
-									<h3>Tim Gaunt</h3>
+									<h3>Ross Matthews</h3>
 									<span>CEO</span>
 								</div>
 							</div>
-							<time>Tuesday, 28 November, 2023</time>
+							<time>Tuesday, 28 November, 2022</time>
 						</div>
 					</div>
 					<div class="bd__content__article__text">
-						<h2>Why SafeLives chose TSD</h2>
-						<p>SafeLives had options but chose TSD for one compelling reason: a comprehensive, empathetic understanding of their unique challenges. Beyond just offering a competitive price, TSD included project management support, an essential but often overlooked component for success. This level of care signalled to SafeLives that they were more than just another project; they were a partner in impact.</p>
+						<h2>Why Cartify chose IntelliQ</h2>
+						<p>Cartify had options but chose IntelliQ for one compelling reason: a comprehensive, empathetic understanding of their unique challenges. Beyond just offering a competitive price, IntelliQ included project management support, an essential but often overlooked component for success. This level of care signalled to Cartify that they were more than just another project; they were a partner in impact.</p>
 					</div>
 					<div class="bd__content__article__text">
 						<h2>The Solution</h2>
-						<p>TSD delivered an intuitive, secure, and efficient platform with multiple data entry options, advanced graphing capabilities, and robust inline data validation. This multi-faceted solution allowed for:</p>
+						<p>IntelliQ delivered an intuitive, secure, and efficient platform with multiple data entry options, advanced graphing capabilities, and robust inline data validation. This multi-faceted solution allowed for:</p>
 						<ul>
 							<li>Fast-moving project lifecycle</li>
 							<li>Regular touchpoints for project updates</li>
-							<li>A seamless and familiar user experience that mimicked the SafeLives website</li>
+							<li>A seamless and familiar user experience that mimicked the Cartify website</li>
 							<li>Significant improvements in data quality and validation</li>
 						</ul>
 					</div>
 					<div class="bd__content__article__text">
 						<h2>The Results</h2>
-						<p>Since the implementation of the new platform, SafeLives has experienced a noticeable increase in user satisfaction. The organization is now better equipped to handle the intricacies of data collection and dissemination, which is critical for those on the frontline of domestic abuse intervention. Most importantly, SafeLives can now focus more on their mission, knowing that their platform is reliable and efficient.</p>
-						<p><q>It’s been a pleasure—TSD has been more than just a service provider; they've been a valuable partner in helping us serve our community better.</q> — Martha Tomlinson, SafeLives</p>
+						<p>Since the implementation of the new platform, Cartify has experienced a noticeable increase in user satisfaction. The organization is now better equipped to handle the intricacies of data collection and dissemination, which is critical for those on the frontline of domestic abuse intervention. Most importantly, Cartify can now focus more on their mission, knowing that their platform is reliable and efficient.</p>
+						<p><q>It’s been a pleasure—IntelliQ has been more than just a service provider; they've been a valuable partner in helping us serve our community better.</q> — Martha Tomlinson, Cartify</p>
 					</div>
 					<div class="bd__content__article__text">
 						<h2>Key Takeaway</h2>
-						<p>TSD's approach is not just about providing a service; it's about understanding the intricacies of each client's needs and becoming an integral part of their mission. Our comprehensive and thoughtful approach is why organizations like SafeLives trust us with their most critical projects.</p>
+						<p>IntelliQ's approach is not just about providing a service; it's about understanding the intricacies of each client's needs and becoming an integral part of their mission. Our comprehensive and thoughtful approach is why organizations like Cartify trust us with their most critical projects.</p>
 					</div>
 					<div class="bd__content__article__footer">
 						<div class="bd__content__article__footer__share">

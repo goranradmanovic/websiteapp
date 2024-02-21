@@ -7,7 +7,7 @@
                <h1>
                   <span class="hero__text--teal">What we do</span>
                </h1>
-               <p>At TSD, we don't shy away from complexity - we embrace it. We thrive on solving the most intricate technical challenges that others may hesitate to approach.</p>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin libero nunc consequat interdum varius sit amet mattis.</p>
             </div>
          </div>
       </section>

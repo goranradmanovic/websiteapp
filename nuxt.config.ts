@@ -9,8 +9,8 @@ export default defineNuxtConfig({
   modules: ['@vueuse/nuxt', 'vue3-carousel-nuxt', '@nuxt/content', '@nuxtjs/seo', '@vee-validate/nuxt'],
   // SEO default global config
   site: {
-    url: 'https://tsd.digital/',
-    name: 'TSD',
+    url: 'https://intelliq.link/',
+    name: 'IntelliQ',
     description: 'This is The Site Doctor - TSD website, IT company that is creating websites, web apps, e-commerce solutions, CMS Umbraco systems, web integrations and many more', // Max 160 chars
     defaultLocale: 'en',
   },

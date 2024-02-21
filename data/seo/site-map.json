@@ -4,21 +4,21 @@
 		"meta": {
 			"category": "IT developemnt",
 			"coverage": "Worldwide",
-			"reply-to": "clinic@tsd.digital",
-			"owner": "TSD Company",
+			"reply-to": "iq@intelliq.link",
+			"owner": "IntelliQ Company",
 			"directory": "submission",
 			"target": "all",
 			"subject": "Web and app development",
-			"subtitle": "This is TSD website",
-			"pagename": "TSD",
+			"subtitle": "This is IntelliQ website",
+			"pagename": "IntelliQ",
 			"date": "Feb. 16, 2024",
 			"search_date": "2024-02-16",
-			"dc.title": "TSD Website",
-			"dc.creator": "TSD Team",
+			"dc.title": "IntelliQ Website",
+			"dc.creator": "IntelliQ Team",
 			"dc.subject": "Web Development, IT, CMS, Web App",
 			"medium": "website",
-			"syndication-source": "https://tsd.digital/",
-			"original-source": "https://tsd.digital/",
+			"syndication-source": "https://intelliq.link/",
+			"original-source": "https://intelliq.link/",
 			"verify-v1": "dV1r/ZJJdDEI++fKJ6iDEl6o+TMNtSu0kv18ONeqM0I=",
 			"y_key": "1e39c508e0d87750",
 			"pageKey": "guest-home",
@@ -28,7 +28,7 @@
 			"ogImageHeight": "300",
 			"ogDescription": "This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
 			"ogImage": "https://example.com/image.png",
-			"ogEmail": "clinic@tsd.digital",
+			"ogEmail": "iq@intelliq.link",
 			"ogPhone_number": "0121-31-45-374",
 			"ogFax_number": "",
 			"ogLatitude": "51.95451",
@@ -40,19 +40,19 @@
 			"ogCountryName": "England",
 
 			"fb:page_id": "33322233323",
-			"application-name": "TSD",
+			"application-name": "IntelliQ",
 
 			"twitterCard": "summary_large_image",
 			"twitterCreator": "@username",
 			"twitterSite": "@username",
-			"twitterTitle": "TSD",
+			"twitterTitle": "IntelliQ",
 			"twitterDescription": "This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
 			"twitterImage": "URL of the image",
 			"twitterImageAlt": "Image alt text",
 			"twitterUrl": "URL of the page",
-			"twitterSiteName": "TSD",
+			"twitterSiteName": "IntelliQ",
 
-			"appleMobileWebAppTitle": "TSD",
+			"appleMobileWebAppTitle": "IntelliQ",
 			"appleMobileWebAppCapable": "yes",
 			"appleTouchFullscreen": "yes",
 			"appleMobileWebAppStatusBarStyle": "#1F3049",
@@ -74,7 +74,7 @@
 			"title": "",
 			"keywords": "Home, page, Web developemnt, IT, CMS, E-commerce, Web apps",
 			"description": "Home page. This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/"
+			"url": "https://intelliq.link/"
 		}
 	},
 	{
@@ -83,7 +83,7 @@
 			"title": "What We Do",
 			"keywords": "What we do, Projects, Web developemnt, IT, CMS, E-commerce, Web apps",
 			"description": "What We Do This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/what-we-do"
+			"url": "https://intelliq.link/what-we-do"
 		}
 	},
 	{
@@ -92,7 +92,7 @@
 			"title": "Who We Are",
 			"keywords": "Who we are, Development, Team, Web developemnt, IT, CMS, E-commerce, Web apps",
 			"description": "Who We Are This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/who-we-are"
+			"url": "https://intelliq.link/who-we-are"
 		}
 	},
 	{
@@ -101,7 +101,7 @@
 			"title": "E Commerce",
 			"keywords": "Web developemnt, IT, CMS, E-commerce, Web apps",
 			"description": "E Commerce This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/e-commerce"
+			"url": "https://intelliq.link/e-commerce"
 		}
 	},
 	{
@@ -110,7 +110,7 @@
 			"title": "Blog",
 			"keywords": "Blog, Web developemnt, IT, CMS, E-commerce, Web apps",
 			"description": "Blog This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/blog"
+			"url": "https://intelliq.link/blog"
 		}
 	},
 	{
@@ -119,7 +119,7 @@
 			"title": "Contact Us",
 			"keywords": "Contact Us, Web developemnt, IT, CMS, E-commerce, Web apps",
 			"description": "Contact Us This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/contact-us"
+			"url": "https://intelliq.link/contact-us"
 		}
 	},
 	{
@@ -128,7 +128,7 @@
 			"title": "Portfolio",
 			"keywords": "Portfolio, Web developemnt, IT, CMS, E-commerce, Web apps",
 			"description": "Portfolio This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/portfolio"
+			"url": "https://intelliq.link/portfolio"
 		}
 	},
 	{
@@ -137,106 +137,106 @@
 			"title": "Case Studies",
 			"keywords": "Case, Studies, Web developemnt, IT, CMS, E-commerce, Web apps",
 			"description": "This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/case-studies"
+			"url": "https://intelliq.link/case-studies"
 		}
 	},
 	{
-		"id": "safelives",
+		"id": "saleify",
 		"meta": {
-			"title": "Safelives",
-			"keywords": "Safelives, Web developemnt, IT, CMS, E-commerce, Web apps",
-			"description": "Safelives This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/case-studies/articles/safelives"
+			"title": "Saleify",
+			"keywords": "Saleify, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Saleify This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://intelliq.link/case-studies/articles/saleify"
 		}
 	},
 	{
-		"id": "etap",
+		"id": "purchify",
 		"meta": {
-			"title": "ETAP",
-			"keywords": "ETAP, Web developemnt, IT, CMS, E-commerce, Web apps",
-			"description": "ETAP This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/case-studies/articles/etap"
+			"title": "Purchify",
+			"keywords": "Purchify, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Purchify This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://intelliq.link/case-studies/articles/purchify"
 		}
 	},
 	{
-		"id": "westons",
+		"id": "ecomaven",
 		"meta": {
-			"title": "Westons",
-			"keywords": "Westons, Web developemnt, IT, CMS, E-commerce, Web apps",
-			"description": "Westons This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/case-studies/articles/westons"
+			"title": "Ecomaven",
+			"keywords": "Ecomaven, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Ecomaven This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://intelliq.link/case-studies/articles/ecomaven"
 		}
 	},
 	{
-		"id": "redspeed",
+		"id": "ecomart",
 		"meta": {
-			"title": "Redspeed",
-			"keywords": "Redspeed, Web developemnt, IT, CMS, E-commerce, Web apps",
-			"description": "Redspeed This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/case-studies/articles/redspeed"
+			"title": "Ecomart",
+			"keywords": "Ecomart, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Ecomart This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://intelliq.link/case-studies/articles/ecomart"
 		}
 	},
 	{
-		"id": "delineate",
+		"id": "cartify",
 		"meta": {
-			"title": "Delineate",
-			"keywords": "Delineate, Web developemnt, IT, CMS, E-commerce, Web apps",
-			"description": "Delineate This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/case-studies/articles/delineate"
+			"title": "Cartify",
+			"keywords": "Cartify, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Cartify This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://intelliq.link/case-studies/articles/cartify"
 		}
 	},
 	{
-		"id": "brightwells",
+		"id": "ecommerce-venture",
 		"meta": {
-			"title": "Brightwells",
-			"keywords": "Brightwells, Web developemnt, IT, CMS, E-commerce, Web apps",
-			"description": "Brightwells This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/case-studies/articles/brightwells"
+			"title": "Ecommerce Venture",
+			"keywords": "Ecommerce Venture, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Ecommerce Venture This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://intelliq.link/case-studies/articles/ecommerce-venture"
 		}
 	},
 	{
-		"id": "wye-valley-brewery",
+		"id": "buyify",
 		"meta": {
-			"title": "Wye Valley Brewery",
-			"keywords": "Wye Valley Brewery, Web developemnt, IT, CMS, E-commerce, Web apps",
-			"description": "Wye Valley Brewery This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/case-studies/articles/way-valley-brewery"
+			"title": "Buyify",
+			"keywords": "Buyify, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Buyify This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://intelliq.link/case-studies/articles/buyify"
 		}
 	},
 	{
-		"id": "joe-davies",
+		"id": "web-wares",
 		"meta": {
-			"title": "Joe Davies",
-			"keywords": "Joe Davies, Web developemnt, IT, CMS, E-commerce, Web apps",
-			"description": "Joe Davies This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/case-studies/articles/joe-davies"
+			"title": "Web Wares",
+			"keywords": "Web Wares, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Web Wares This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://intelliq.link/case-studies/articles/web-wares"
 		}
 	},
 	{
-		"id": "british-library",
+		"id": "cyber-center",
 		"meta": {
-			"title": "British Library",
-			"keywords": "British Library, Web developemnt, IT, CMS, E-commerce, Web apps",
-			"description": "British Library This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/case-studies/articles/british-library"
+			"title": "Cyber Center",
+			"keywords": "Cyber Center, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Cyber Center This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://intelliq.link/case-studies/articles/cyber-center"
 		}
 	},
 	{
-		"id": "schlumberger",
+		"id": "ecommerce-hub",
 		"meta": {
-			"title": "Schlumberger",
-			"keywords": "Schlumberger, Web developemnt, IT, CMS, E-commerce, Web apps",
-			"description": "Schlumberger This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/case-studies/articles/schlumberger"
+			"title": "Ecommerce Hub",
+			"keywords": "Ecommerce Hub, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Ecommerce Hub This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://intelliq.link/case-studies/articles/ecommerce-hub"
 		}
 	},
 	{
-		"id": "alphastream",
+		"id": "net-nexus",
 		"meta": {
-			"title": "Alphastream",
-			"keywords": "Alphastream, Web developemnt, IT, CMS, E-commerce, Web apps",
-			"description": "Alphastream This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
-			"url": "https://tsd.digital/case-studies/articles/alphastream"
+			"title": "Net Nexus",
+			"keywords": "Net Nexus, Web developemnt, IT, CMS, E-commerce, Web apps",
+			"description": "Net Nexus This is my amazing site, let me tell you all about it. MAX OF 160 CHARACTERS",
+			"url": "https://intelliq.link/case-studies/articles/net-nexus"
 		}
 	}
 ]

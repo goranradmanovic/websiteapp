@@ -33,7 +33,7 @@
 			</section>
 		</div>
 		<!--=============== TESTIMONIALS ===============-->
-		<Testimonial :testimonial="useGetTestimonial(1)" class="mb" />
+		<Testimonial :testimonial="useGetTestimonial(1)" class="mb-4" />
 	</main>
 </template>
 
@@ -46,5 +46,5 @@
 
 	const getPortfolioData = pageId => data.filter(item => item.id === pageId)[0];
 
-	portfolioData.value = getPortfolioData('chalkboards-uk');
+	portfolioData.value = getPortfolioData('app-bot');
 </script>

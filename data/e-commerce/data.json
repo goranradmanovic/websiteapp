@@ -4,22 +4,27 @@
 		"name": "Clinets",
 		"images": [
 			{
-				"name": "wye-valley-brewery",
+				"name": "1",
 				"format": ".webp",
 				"url": "/_nuxt/assets/images/e-commerce-slider/"
 			},
 			{
-				"name": "westons",
+				"name": "2",
 				"format": ".webp",
 				"url": "/_nuxt/assets/images/e-commerce-slider/"
 			},
 			{
-				"name": "chalkboards-uk",
+				"name": "3",
 				"format": ".webp",
 				"url": "/_nuxt/assets/images/e-commerce-slider/"
 			},
 			{
-				"name": "freeman-pardoe",
+				"name": "4",
+				"format": ".webp",
+				"url": "/_nuxt/assets/images/e-commerce-slider/"
+			},
+			{
+				"name": "5",
 				"format": ".webp",
 				"url": "/_nuxt/assets/images/e-commerce-slider/"
 			}

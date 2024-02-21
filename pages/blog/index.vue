@@ -94,7 +94,7 @@
 			</div>
 		</section>
 		<!--=============== TESTIMONIALS ===============-->
-		<Testimonial :testimonial="useGetTestimonial(1)" />
+		<Testimonial :testimonial="useGetTestimonial(1)" class="mb-4" />
 	</main>
 </template>
 

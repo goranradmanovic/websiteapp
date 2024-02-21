@@ -202,8 +202,9 @@
                 gap: 3.75rem 6.25rem;
 
                 img {
-                    width: 8.125rem;
-                    height: 3.375rem;
+                    width: 4.125rem;
+                    height: 4.125rem;
+                    object-fit: contain;
                 }
             }
         }

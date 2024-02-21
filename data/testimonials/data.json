@@ -2,31 +2,31 @@
 	{
 		"id": 1,
 		"classModifier": "",
-		"content": "In all areas from the planning, specification, through to the programming and implementation - TSD are world-class",
+		"content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
 		"author": {
-			"name": "Paul Hooker",
+			"name": "Joey J. Tennyson",
 			"title": "CEO",
-			"project": "Joe Davies (Customer since 2006)"
+			"project": "Market Axis (Customer since 2016)"
 		}
 	},
 	{
 		"id": 2,
 		"classModifier": "p-absolute",
-		"content": "It’s been a pleasure - TSD has been more than just a service provider; they've been a valuable partner in helping us serve our community better",
+		"content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
 		"author": {
-			"name": "Martha Tomlinson",
-			"title": "",
-			"project": "SafeLives (Registered UK Charity #1106864)"
+			"name": "Peter A. Hargett",
+			"title": "COO",
+			"project": "Commerce Connect"
 		}
 	},
 	{	
 		"id": 3,
 		"classModifier": "p-absolute",
-		"content": "The TSD team were a pleasure to work with. We would recommend working with them for their talent, creativity and support , but also their great approach to their clients.",
+		"content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		"author": {
-			"name": "Web Manager",
-			"title": "",
-			"project": "Newham College of Further Education"
+			"name": "Darin Jennings",
+			"title": "CTO",
+			"project": "Venturio"
 		}
 	}
 ]

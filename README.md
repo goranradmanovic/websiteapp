@@ -1,77 +1,25 @@
-# Nuxt 3 Minimal Starter
+# Website app - NuxtJS 3
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## This is website app created with NuxtJS 3 and other Nuxt modules. You can see preview of the app.
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-See the [nuxt deployment documentation](https://nuxt.com/deploy/azure) for how the actions should be set up in git.
+![home 1](./assets/images/preview/home-1.png)
+![home 2](./assets/images/preview/home-2.png)
+![home 3](./assets/images/preview/home-3.png)
+![home 4](./assets/images/preview/home-4.png)
+![home 5](./assets/images/preview/home-5.png)
+---
+![what we do](./assets/images/preview/whatwedo.png)
+---
+![who we are](./assets/images/preview/whoweare.png)
+---
+![e-commerce](./assets/images/preview/ecommerce.png)
+---
+![case list](./assets/images/preview/caselist.png)
+![case details](./assets/images/preview/casedetails.png)
+---
+![blog list](./assets/images/preview/bloglist.png)
+![blog detials](./assets/images/preview/blogdetails.png)
+---
+![contact us](./assets/images/preview/contactus.png)
+---
+![portfolio](./assets/images/preview/portfolio.png)

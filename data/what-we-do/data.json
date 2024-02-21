@@ -90,9 +90,9 @@
     ],
     "projects": [
         {
-            "id": "wye-valley-brewery-redesign",
-            "product": "Wye Valley Brewery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "saleify",
+            "product": "Saleify",
+            "url": "https://www.example.com/",
             "icon": "cart",
             "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
             "sectors": ["Ecommerce", "Food & Beverage"],
@@ -100,9 +100,9 @@
             "displayOnSite": true
         },
         {
-            "id": "bond-jewllery-redesign",
-            "product": "Bond Jewellery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "purchify",
+            "product": "Purchify",
+            "url": "https://www.example.com/",
             "icon": "basket",
             "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass", "VueJS"],
             "sectors": ["Ecommerce", "Retail"],
@@ -110,9 +110,9 @@
             "displayOnSite": true
         },
         {
-            "id": "wye-valley-brewery-redesign",
-            "product": "Wye Valley Brewery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "ecomaven",
+            "product": "Ecomaven",
+            "url": "https://www.example.com/",
             "icon": "basket",
             "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
             "sectors": ["Ecommerce", "Food & Beverage"],
@@ -120,9 +120,9 @@
             "displayOnSite": true
         },
         {
-            "id": "bond-jewllery-redesign",
-            "product": "Bond Jewellery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "ecomart",
+            "product": "Ecomart",
+            "url": "https://www.example.com/",
             "icon": "cart",
             "technologies": ["C#", ".Net", "HTML", "AngularJs", "VueJS"],
             "sectors": ["Ecommerce", "Retail"],
@@ -130,9 +130,9 @@
             "displayOnSite": true
         },
         {
-            "id": "wye-valley-brewery-redesign",
-            "product": "Wye Valley Brewery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "cartify",
+            "product": "Cartify",
+            "url": "https://www.example.com/",
             "icon": "basket",
             "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
             "sectors": ["Ecommerce", "Food & Beverage"],
@@ -140,9 +140,9 @@
             "displayOnSite": true
         },
         {
-            "id": "bond-jewllery-redesign",
-            "product": "Bond Jewellery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "ecommerce-venture",
+            "product": "Ecommerce Venture",
+            "url": "https://www.example.com/",
             "icon": "cart",
             "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
             "sectors": ["Ecommerce", "Retail"],
@@ -150,9 +150,9 @@
             "displayOnSite": true
         },
         {
-            "id": "wye-valley-brewery-redesign",
-            "product": "Wye Valley Brewery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "buyify",
+            "product": "Buyify",
+            "url": "https://www.example.com/",
             "icon": "basket",
             "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
             "sectors": ["Ecommerce", "Food & Beverage"],
@@ -160,9 +160,9 @@
             "displayOnSite": true
         },
         {
-            "id": "bond-jewllery-redesign",
-            "product": "Bond Jewellery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "web-wares",
+            "product": "Web Wares",
+            "url": "https://www.example.com/",
             "icon": "cart",
             "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
             "sectors": ["Ecommerce", "Retail"],
@@ -170,9 +170,9 @@
             "displayOnSite": true
         },
         {
-            "id": "wye-valley-brewery-redesign",
-            "product": "Wye Valley Brewery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "cyber-center",
+            "product": "Cyber Center",
+            "url": "https://www.example.com/",
             "icon": "cart",
             "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
             "sectors": ["Ecommerce", "Food & Beverage"],
@@ -180,9 +180,9 @@
             "displayOnSite": true
         },
         {
-            "id": "bond-jewllery-redesign",
-            "product": "Bond Jewellery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "ecommerce-hub",
+            "product": "Ecommerce Hub",
+            "url": "https://www.example.com/",
             "icon": "basket",
             "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
             "sectors": ["Ecommerce", "Retail"],
@@ -190,9 +190,9 @@
             "displayOnSite": true
         },
         {
-            "id": "wye-valley-brewery-redesign",
-            "product": "Wye Valley Brewery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "net-nexus",
+            "product": "Net Nexus",
+            "url": "https://www.example.com/",
             "icon": "cart",
             "technologies": ["C#", ".Net", "HTML", "SQL Server", "VueJS"],
             "sectors": ["Ecommerce", "Food & Beverage"],
@@ -200,9 +200,9 @@
             "displayOnSite": true
         },
         {
-            "id": "bond-jewllery-redesign",
-            "product": "Bond Jewellery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "saleify",
+            "product": "Saleify",
+            "url": "https://www.example.com/",
             "icon": "basket",
             "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
             "sectors": ["Ecommerce", "Retail"],
@@ -210,9 +210,9 @@
             "displayOnSite": true
         },
         {
-            "id": "wye-valley-brewery-redesign",
-            "product": "Wye Valley Brewery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "purchify",
+            "product": "Purchify",
+            "url": "https://www.example.com/",
             "icon": "cart",
             "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
             "sectors": ["Ecommerce", "Food & Beverage"],
@@ -220,9 +220,9 @@
             "displayOnSite": true
         },
         {
-            "id": "bond-jewllery-redesign",
-            "product": "Bond Jewellery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "ecomaven",
+            "product": "Ecomaven",
+            "url": "https://www.example.com/",
             "icon": "basket",
             "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
             "sectors": ["Ecommerce", "Retail"],
@@ -230,9 +230,9 @@
             "displayOnSite": true
         },
         {
-            "id": "wye-valley-brewery-redesign",
-            "product": "Wye Valley Brewery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "ecomart",
+            "product": "Ecomart",
+            "url": "https://www.example.com/",
             "icon": "cart",
             "technologies": ["C#", ".Net", "HTML", "VueJS", "Sass"],
             "sectors": ["Ecommerce", "Food & Beverage"],
@@ -240,9 +240,9 @@
             "displayOnSite": true
         },
         {
-            "id": "bond-jewllery-redesign",
-            "product": "Bond Jewellery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "cartify",
+            "product": "Cartify",
+            "url": "https://www.example.com/",
             "icon": "basket",
             "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
             "sectors": ["Ecommerce", "Retail"],
@@ -250,9 +250,9 @@
             "displayOnSite": true
         },
         {
-            "id": "wye-valley-brewery-redesign",
-            "product": "Wye Valley Brewery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "ecommerce-venture",
+            "product": "Ecommerce Venture",
+            "url": "https://www.example.com/",
             "icon": "cart",
             "technologies": ["C#", ".Net", "HTML", "SQL Server", "Sass"],
             "sectors": ["Ecommerce", "Food & Beverage"],
@@ -260,9 +260,9 @@
             "displayOnSite": true
         },
         {
-            "id": "bond-jewllery-redesign",
-            "product": "Bond Jewellery",
-            "url": "https://www.wyevalleybrewery.co.uk/",
+            "id": "buyify",
+            "product": "Buyify",
+            "url": "https://www.example.com/",
             "icon": "basket",
             "technologies": ["C#", ".Net", "HTML", "AngularJs", "Sass"],
             "sectors": ["Ecommerce", "Retail"],

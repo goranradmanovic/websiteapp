@@ -10,11 +10,11 @@
 				</div>
 				<div class="hero__text">
 					<p>
-						We've generated our customers over £100m across 8 countries selling everything from
+						Volutpat blandit aliquam etiam erat velit scelerisque in. Sit amet purus gravida quis blandit.
 						<span class="hero__text__tags">
-							<span class="card card-lr-radius-s hero__text__tag">Santa Hats</span>
+							<span class="card card-lr-radius-s hero__text__tag">Energy Drinks</span>
 							<span>to</span>
-							<span class="card card-lr-radius-s hero__text__tag">Wooden Boxes</span>
+							<span class="card card-lr-radius-s hero__text__tag">Mobile Phones</span>
 						</span>
 					</p>
 				</div>
